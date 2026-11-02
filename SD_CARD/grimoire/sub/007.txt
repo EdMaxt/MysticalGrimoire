@@ -1,0 +1,16 @@
+name=Fiend Patron
+class=Warlock
+source=SRD 5.2.1
+tagline=
+---
+SRD 5.2.1 subclass. This card lists only the spells it always prepares; read its features in the SRD or your Player's Handbook.
+@SPELLS
+Lv 3: Burning Hands, Command, Scorching Ray, Suggestion
+Lv 5: Fireball, Stinking Cloud
+Lv 7: Fire Shield, Wall of Fire
+Lv 9: Geas, Insect Plague
+@GRANT
+3||036,049,265,300
+5||126,296
+7||124,325
+9||141,180

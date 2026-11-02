@@ -1,0 +1,13 @@
+name=Fly
+level=3
+school=Transmutation
+classes=Sorcerer, Warlock, Wizard
+time=Action
+range=Touch
+comp=V, S, M (a feather)
+dur=Concentration, up to 10 minutes
+flags=C
+---
+You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.
+@HIGHER
+You can target one additional creature for each spell slot level above 3.

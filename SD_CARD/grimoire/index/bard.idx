@@ -1,0 +1,140 @@
+348|0|Blade Ward|Abjuration|CP
+074|0|Dancing Lights|Illusion|C
+362|0|Friends|Enchantment|CP
+189|0|Light|Evocation|
+196|0|Mage Hand|Conjuration|
+210|0|Mending|Transmutation|
+211|0|Message|Transmutation|
+215|0|Minor Illusion|Illusion|
+239|0|Prestidigitation|Transmutation|
+295|0|Starry Wisp|Evocation|
+385|0|Thunderclap|Evocation|P
+319|0|True Strike|Divination|
+323|0|Vicious Mockery|Enchantment|
+006|1|Animal Friendship|Enchantment|
+023|1|Bane|Enchantment|C
+041|1|Charm Person|Enchantment|
+048|1|Color Spray|Illusion|
+049|1|Command|Enchantment|
+052|1|Comprehend Languages|Divination|R
+073|1|Cure Wounds|Abjuration|
+082|1|Detect Magic|Divination|CR
+086|1|Disguise Self|Illusion|
+090|1|Dissonant Whispers|Enchantment|
+113|1|Faerie Fire|Evocation|C
+117|1|Feather Fall|Transmutation|
+161|1|Healing Word|Abjuration|
+165|1|Heroism|Enchantment|C
+167|1|Hideous Laughter|Enchantment|C
+175|1|Identify|Divination|R
+176|1|Illusory Script|Illusion|R
+194|1|Longstrider|Transmutation|
+281|1|Silent Image|Illusion|C
+283|1|Sleep|Enchantment|C
+288|1|Speak with Animals|Divination|R
+310|1|Thunderwave|Evocation|
+321|1|Unseen Servant|Conjuration|R
+003|2|Aid|Abjuration|
+007|2|Animal Messenger|Enchantment|R
+033|2|Blindness/Deafness|Transmutation|
+038|2|Calm Emotions|Enchantment|C
+351|2|Cloud of Daggers|Conjuration|CP
+356|2|Crown of Madness|Enchantment|CP
+084|2|Detect Thoughts|Divination|C
+104|2|Enhance Ability|Transmutation|C
+105|2|Enlarge/Reduce|Transmutation|C
+108|2|Enthrall|Enchantment|C
+162|2|Heat Metal|Transmutation|C
+169|2|Hold Person|Enchantment|C
+182|2|Invisibility|Illusion|C
+185|2|Knock|Transmutation|
+187|2|Lesser Restoration|Abjuration|
+191|2|Locate Animals or Plants|Divination|R
+193|2|Locate Object|Divination|C
+200|2|Magic Mouth|Illusion|R
+217|2|Mirror Image|Illusion|
+226|2|Phantasmal Force|Illusion|C
+269|2|See Invisibility|Divination|
+274|2|Shatter|Evocation|
+280|2|Silence|Illusion|CR
+300|2|Suggestion|Enchantment|C
+339|2|Zone of Truth|Enchantment|
+028|3|Bestow Curse|Necromancy|C
+045|3|Clairvoyance|Divination|C
+089|3|Dispel Magic|Abjuration|
+116|3|Fear|Illusion|C
+360|3|Feign Death|Necromancy|RP
+146|3|Glyph of Warding|Abjuration|
+172|3|Hypnotic Pattern|Illusion|C
+203|3|Major Image|Illusion|C
+206|3|Mass Healing Word|Abjuration|
+223|3|Nondetection|Abjuration|
+232|3|Plant Growth|Transmutation|
+271|3|Sending|Divination|
+285|3|Slow|Transmutation|C
+289|3|Speak with Dead|Necromancy|
+290|3|Speak with Plants|Transmutation|
+296|3|Stinking Cloud|Conjuration|C
+312|3|Tiny Hut|Evocation|R
+313|3|Tongues|Divination|
+040|4|Charm Monster|Enchantment|
+053|4|Compulsion|Enchantment|C
+055|4|Confusion|Enchantment|C
+085|4|Dimension Door|Conjuration|
+361|4|Fount of Moonlight|Evocation|CP
+137|4|Freedom of Movement|Abjuration|
+149|4|Greater Invisibility|Illusion|C
+157|4|Hallucinatory Terrain|Illusion|
+192|4|Locate Creature|Divination|C
+227|4|Phantasmal Killer|Illusion|C
+234|4|Polymorph|Transmutation|C
+010|5|Animate Objects|Transmutation|C
+022|5|Awaken|Transmutation|
+097|5|Dominate Person|Enchantment|C
+099|5|Dream|Illusion|
+141|5|Geas|Enchantment|
+150|5|Greater Restoration|Abjuration|
+168|5|Hold Monster|Enchantment|C
+186|5|Legend Lore|Divination|
+204|5|Mass Cure Wounds|Abjuration|
+218|5|Mislead|Illusion|C
+220|5|Modify Memory|Enchantment|C
+230|5|Planar Binding|Abjuration|
+250|5|Raise Dead|Necromancy|
+266|5|Scrying|Divination|C
+270|5|Seeming|Illusion|
+381|5|Synaptic Static|Enchantment|P
+306|5|Telepathic Bond|Divination|R
+308|5|Teleportation Circle|Conjuration|
+391|5|Yolande's Regal Presence|Enchantment|CP
+111|6|Eyebite|Necromancy|C
+120|6|Find the Path|Divination|C
+152|6|Guards and Wards|Abjuration|
+164|6|Heroes’ Feast|Conjuration|
+183|6|Irresistible Dance|Enchantment|C
+207|6|Mass Suggestion|Enchantment|
+244|6|Programmed Illusion|Illusion|
+318|6|True Seeing|Divination|
+017|7|Arcane Sword|Evocation|C
+109|7|Etherealness|Conjuration|
+135|7|Forcecage|Evocation|C
+202|7|Magnificent Mansion|Conjuration|
+216|7|Mirage Arcane|Illusion|
+369|7|Power Word Fortify|Enchantment|P
+240|7|Prismatic Spray|Evocation|
+245|7|Project Image|Illusion|C
+254|7|Regenerate|Transmutation|
+259|7|Resurrection|Necromancy|
+304|7|Symbol|Abjuration|
+307|7|Teleport|Conjuration|
+013|8|Antipathy/Sympathy|Enchantment|
+027|8|Befuddlement|Enchantment|
+096|8|Dominate Monster|Enchantment|C
+144|8|Glibness|Enchantment|
+213|8|Mind Blank|Abjuration|
+237|8|Power Word Stun|Enchantment|
+136|9|Foresight|Divination|
+235|9|Power Word Heal|Enchantment|
+236|9|Power Word Kill|Enchantment|
+241|9|Prismatic Wall|Abjuration|
+316|9|True Polymorph|Transmutation|C

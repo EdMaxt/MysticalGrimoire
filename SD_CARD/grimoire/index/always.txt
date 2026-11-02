@@ -1,0 +1,3 @@
+# class|level|spell id (always prepared, free of the prepared limit)
+Paladin|2|093
+Ranger|1|171

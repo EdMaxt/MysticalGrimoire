@@ -1,0 +1,13 @@
+name=Shocking Grasp
+level=0
+school=Evocation
+classes=Sorcerer, Wizard
+time=Action
+range=Touch
+comp=V, S
+dur=Instantaneous
+flags=
+---
+Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and it can’t make Opportunity Attacks until the start of its next turn.
+@CANTRIP
+The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).

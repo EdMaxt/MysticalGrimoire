@@ -1,0 +1,18 @@
+name=Oath of Devotion
+class=Paladin
+source=SRD 5.2.1
+tagline=
+---
+SRD 5.2.1 subclass. This card lists only the spells it always prepares; read its features in the SRD or your Player's Handbook.
+@SPELLS
+Lv 3: Protection from Evil and Good, Shield of Faith
+Lv 5: Aid, Zone of Truth
+Lv 9: Beacon of Hope, Dispel Magic
+Lv 13: Freedom of Movement, Guardian of Faith
+Lv 17: Commune, Flame Strike
+@GRANT
+3||247,276
+5||003,339
+9||026,089
+13||137,151
+17||050,128

@@ -1,0 +1,391 @@
+001|2|Acid Arrow|Evocation|
+002|0|Acid Splash|Evocation|
+003|2|Aid|Abjuration|
+004|1|Alarm|Abjuration|R
+005|2|Alter Self|Transmutation|C
+006|1|Animal Friendship|Enchantment|
+007|2|Animal Messenger|Enchantment|R
+008|8|Animal Shapes|Transmutation|
+009|3|Animate Dead|Necromancy|
+010|5|Animate Objects|Transmutation|C
+011|5|Antilife Shell|Abjuration|C
+012|8|Antimagic Field|Abjuration|C
+013|8|Antipathy/Sympathy|Enchantment|
+014|4|Arcane Eye|Divination|C
+015|5|Arcane Hand|Evocation|C
+016|2|Arcane Lock|Abjuration|
+017|7|Arcane Sword|Evocation|C
+018|2|Arcanist’s Magic Aura|Illusion|
+019|9|Astral Projection|Necromancy|
+020|2|Augury|Divination|R
+021|4|Aura of Life|Abjuration|C
+022|5|Awaken|Transmutation|
+023|1|Bane|Enchantment|C
+024|4|Banishment|Abjuration|C
+025|2|Barkskin|Transmutation|
+026|3|Beacon of Hope|Abjuration|C
+027|8|Befuddlement|Enchantment|
+028|3|Bestow Curse|Necromancy|C
+029|4|Black Tentacles|Conjuration|C
+030|6|Blade Barrier|Evocation|C
+031|1|Bless|Enchantment|C
+032|4|Blight|Necromancy|
+033|2|Blindness/Deafness|Transmutation|
+034|3|Blink|Transmutation|
+035|2|Blur|Illusion|C
+036|1|Burning Hands|Evocation|
+037|3|Call Lightning|Conjuration|C
+038|2|Calm Emotions|Enchantment|C
+039|6|Chain Lightning|Evocation|
+040|4|Charm Monster|Enchantment|
+041|1|Charm Person|Enchantment|
+042|0|Chill Touch|Necromancy|
+043|1|Chromatic Orb|Evocation|
+044|6|Circle of Death|Necromancy|
+045|3|Clairvoyance|Divination|C
+046|8|Clone|Necromancy|
+047|5|Cloudkill|Conjuration|C
+048|1|Color Spray|Illusion|
+049|1|Command|Enchantment|
+050|5|Commune|Divination|R
+051|5|Commune with Nature|Divination|R
+052|1|Comprehend Languages|Divination|R
+053|4|Compulsion|Enchantment|C
+054|5|Cone of Cold|Evocation|
+055|4|Confusion|Enchantment|C
+056|3|Conjure Animals|Conjuration|C
+057|7|Conjure Celestial|Conjuration|C
+058|5|Conjure Elemental|Conjuration|C
+059|6|Conjure Fey|Conjuration|C
+060|4|Conjure Minor Elementals|Conjuration|C
+061|4|Conjure Woodland Beings|Conjuration|C
+062|5|Contact Other Plane|Divination|R
+063|5|Contagion|Necromancy|
+064|6|Contingency|Abjuration|
+065|2|Continual Flame|Evocation|
+066|4|Control Water|Transmutation|C
+067|8|Control Weather|Transmutation|C
+068|3|Counterspell|Abjuration|
+069|3|Create Food and Water|Conjuration|
+070|1|Create or Destroy Water|Transmutation|
+071|6|Create Undead|Necromancy|
+072|5|Creation|Illusion|
+073|1|Cure Wounds|Abjuration|
+074|0|Dancing Lights|Illusion|C
+075|2|Darkness|Evocation|C
+076|2|Darkvision|Transmutation|
+077|3|Daylight|Evocation|
+078|4|Death Ward|Abjuration|
+079|7|Delayed Blast Fireball|Evocation|C
+080|8|Demiplane|Conjuration|
+081|1|Detect Evil and Good|Divination|C
+082|1|Detect Magic|Divination|CR
+083|1|Detect Poison and Disease|Divination|CR
+084|2|Detect Thoughts|Divination|C
+085|4|Dimension Door|Conjuration|
+086|1|Disguise Self|Illusion|
+087|6|Disintegrate|Transmutation|
+088|5|Dispel Evil and Good|Abjuration|C
+089|3|Dispel Magic|Abjuration|
+090|1|Dissonant Whispers|Enchantment|
+091|4|Divination|Divination|R
+092|1|Divine Favor|Transmutation|
+093|1|Divine Smite|Evocation|
+094|7|Divine Word|Evocation|
+095|4|Dominate Beast|Enchantment|C
+096|8|Dominate Monster|Enchantment|C
+097|5|Dominate Person|Enchantment|C
+098|2|Dragon’s Breath|Transmutation|C
+099|5|Dream|Illusion|
+100|0|Druidcraft|Transmutation|
+101|8|Earthquake|Transmutation|C
+102|0|Eldritch Blast|Evocation|
+103|0|Elementalism|Transmutation|
+104|2|Enhance Ability|Transmutation|C
+105|2|Enlarge/Reduce|Transmutation|C
+106|1|Ensnaring Strike|Conjuration|C
+107|1|Entangle|Conjuration|C
+108|2|Enthrall|Enchantment|C
+109|7|Etherealness|Conjuration|
+110|1|Expeditious Retreat|Transmutation|C
+111|6|Eyebite|Necromancy|C
+112|4|Fabricate|Transmutation|
+113|1|Faerie Fire|Evocation|C
+114|4|Faithful Hound|Conjuration|
+115|1|False Life|Necromancy|
+116|3|Fear|Illusion|C
+117|1|Feather Fall|Transmutation|
+118|1|Find Familiar|Conjuration|R
+119|2|Find Steed|Conjuration|
+120|6|Find the Path|Divination|C
+121|2|Find Traps|Divination|
+122|7|Finger of Death|Necromancy|
+123|0|Fire Bolt|Evocation|
+124|4|Fire Shield|Evocation|
+125|7|Fire Storm|Evocation|
+126|3|Fireball|Evocation|
+127|2|Flame Blade|Evocation|C
+128|5|Flame Strike|Evocation|
+129|2|Flaming Sphere|Conjuration|C
+130|6|Flesh to Stone|Transmutation|C
+131|1|Floating Disk|Conjuration|R
+132|3|Fly|Transmutation|C
+133|1|Fog Cloud|Conjuration|C
+134|6|Forbiddance|Abjuration|R
+135|7|Forcecage|Evocation|C
+136|9|Foresight|Divination|
+137|4|Freedom of Movement|Abjuration|
+138|6|Freezing Sphere|Evocation|
+139|3|Gaseous Form|Transmutation|C
+140|9|Gate|Conjuration|C
+141|5|Geas|Enchantment|
+142|2|Gentle Repose|Necromancy|R
+143|4|Giant Insect|Conjuration|C
+144|8|Glibness|Enchantment|
+145|6|Globe of Invulnerability|Abjuration|C
+146|3|Glyph of Warding|Abjuration|
+147|1|Goodberry|Conjuration|
+148|1|Grease|Conjuration|
+149|4|Greater Invisibility|Illusion|C
+150|5|Greater Restoration|Abjuration|
+151|4|Guardian of Faith|Conjuration|
+152|6|Guards and Wards|Abjuration|
+153|0|Guidance|Divination|C
+154|1|Guiding Bolt|Evocation|
+155|2|Gust of Wind|Evocation|C
+156|5|Hallow|Abjuration|
+157|4|Hallucinatory Terrain|Illusion|
+158|6|Harm|Necromancy|
+159|3|Haste|Transmutation|C
+160|6|Heal|Abjuration|
+161|1|Healing Word|Abjuration|
+162|2|Heat Metal|Transmutation|C
+163|1|Hellish Rebuke|Evocation|
+164|6|Heroes’ Feast|Conjuration|
+165|1|Heroism|Enchantment|C
+166|1|Hex|Enchantment|C
+167|1|Hideous Laughter|Enchantment|C
+168|5|Hold Monster|Enchantment|C
+169|2|Hold Person|Enchantment|C
+170|8|Holy Aura|Abjuration|C
+171|1|Hunter’s Mark|Divination|C
+172|3|Hypnotic Pattern|Illusion|C
+173|1|Ice Knife|Conjuration|
+174|4|Ice Storm|Evocation|
+175|1|Identify|Divination|R
+176|1|Illusory Script|Illusion|R
+177|9|Imprisonment|Abjuration|
+178|8|Incendiary Cloud|Conjuration|C
+179|1|Inflict Wounds|Necromancy|
+180|5|Insect Plague|Conjuration|C
+181|6|Instant Summons|Conjuration|R
+182|2|Invisibility|Illusion|C
+183|6|Irresistible Dance|Enchantment|C
+184|1|Jump|Transmutation|
+185|2|Knock|Transmutation|
+186|5|Legend Lore|Divination|
+187|2|Lesser Restoration|Abjuration|
+188|2|Levitate|Transmutation|C
+189|0|Light|Evocation|
+190|3|Lightning Bolt|Evocation|
+191|2|Locate Animals or Plants|Divination|R
+192|4|Locate Creature|Divination|C
+193|2|Locate Object|Divination|C
+194|1|Longstrider|Transmutation|
+195|1|Mage Armor|Abjuration|
+196|0|Mage Hand|Conjuration|
+197|3|Magic Circle|Abjuration|
+198|6|Magic Jar|Necromancy|
+199|1|Magic Missile|Evocation|
+200|2|Magic Mouth|Illusion|R
+201|2|Magic Weapon|Transmutation|
+202|7|Magnificent Mansion|Conjuration|
+203|3|Major Image|Illusion|C
+204|5|Mass Cure Wounds|Abjuration|
+205|9|Mass Heal|Abjuration|
+206|3|Mass Healing Word|Abjuration|
+207|6|Mass Suggestion|Enchantment|
+208|8|Maze|Conjuration|C
+209|3|Meld into Stone|Transmutation|R
+210|0|Mending|Transmutation|
+211|0|Message|Transmutation|
+212|9|Meteor Swarm|Evocation|
+213|8|Mind Blank|Abjuration|
+214|2|Mind Spike|Divination|C
+215|0|Minor Illusion|Illusion|
+216|7|Mirage Arcane|Illusion|
+217|2|Mirror Image|Illusion|
+218|5|Mislead|Illusion|C
+219|2|Misty Step|Conjuration|
+220|5|Modify Memory|Enchantment|C
+221|2|Moonbeam|Evocation|C
+222|6|Move Earth|Transmutation|C
+223|3|Nondetection|Abjuration|
+224|2|Pass without Trace|Abjuration|C
+225|5|Passwall|Transmutation|
+226|2|Phantasmal Force|Illusion|C
+227|4|Phantasmal Killer|Illusion|C
+228|3|Phantom Steed|Illusion|R
+229|6|Planar Ally|Conjuration|
+230|5|Planar Binding|Abjuration|
+231|7|Plane Shift|Conjuration|
+232|3|Plant Growth|Transmutation|
+233|0|Poison Spray|Necromancy|
+234|4|Polymorph|Transmutation|C
+235|9|Power Word Heal|Enchantment|
+236|9|Power Word Kill|Enchantment|
+237|8|Power Word Stun|Enchantment|
+238|2|Prayer of Healing|Abjuration|
+239|0|Prestidigitation|Transmutation|
+240|7|Prismatic Spray|Evocation|
+241|9|Prismatic Wall|Abjuration|
+242|4|Private Sanctum|Abjuration|
+243|0|Produce Flame|Conjuration|
+244|6|Programmed Illusion|Illusion|
+245|7|Project Image|Illusion|C
+246|3|Protection from Energy|Abjuration|C
+247|1|Protection from Evil and Good|Abjuration|C
+248|2|Protection from Poison|Abjuration|
+249|1|Purify Food and Drink|Transmutation|R
+250|5|Raise Dead|Necromancy|
+251|2|Ray of Enfeeblement|Necromancy|C
+252|0|Ray of Frost|Evocation|
+253|1|Ray of Sickness|Necromancy|
+254|7|Regenerate|Transmutation|
+255|5|Reincarnate|Necromancy|
+256|3|Remove Curse|Abjuration|
+257|4|Resilient Sphere|Abjuration|C
+258|0|Resistance|Abjuration|C
+259|7|Resurrection|Necromancy|
+260|7|Reverse Gravity|Transmutation|C
+261|3|Revivify|Necromancy|
+262|2|Rope Trick|Transmutation|
+263|0|Sacred Flame|Evocation|
+264|1|Sanctuary|Abjuration|
+265|2|Scorching Ray|Evocation|
+266|5|Scrying|Divination|C
+267|1|Searing Smite|Evocation|
+268|4|Secret Chest|Conjuration|
+269|2|See Invisibility|Divination|
+270|5|Seeming|Illusion|
+271|3|Sending|Divination|
+272|7|Sequester|Transmutation|
+273|9|Shapechange|Transmutation|C
+274|2|Shatter|Evocation|
+275|1|Shield|Abjuration|
+276|1|Shield of Faith|Abjuration|C
+277|0|Shillelagh|Transmutation|
+278|2|Shining Smite|Transmutation|C
+279|0|Shocking Grasp|Evocation|
+280|2|Silence|Illusion|CR
+281|1|Silent Image|Illusion|C
+282|7|Simulacrum|Illusion|
+283|1|Sleep|Enchantment|C
+284|3|Sleet Storm|Conjuration|C
+285|3|Slow|Transmutation|C
+286|0|Sorcerous Burst|Evocation|
+287|0|Spare the Dying|Necromancy|
+288|1|Speak with Animals|Divination|R
+289|3|Speak with Dead|Necromancy|
+290|3|Speak with Plants|Transmutation|
+291|2|Spider Climb|Transmutation|C
+292|2|Spike Growth|Transmutation|C
+293|3|Spirit Guardians|Conjuration|C
+294|2|Spiritual Weapon|Evocation|C
+295|0|Starry Wisp|Evocation|
+296|3|Stinking Cloud|Conjuration|C
+297|4|Stone Shape|Transmutation|
+298|4|Stoneskin|Transmutation|C
+299|9|Storm of Vengeance|Conjuration|C
+300|2|Suggestion|Enchantment|C
+301|5|Summon Dragon|Conjuration|C
+302|6|Sunbeam|Evocation|C
+303|8|Sunburst|Evocation|
+304|7|Symbol|Abjuration|
+305|5|Telekinesis|Transmutation|C
+306|5|Telepathic Bond|Divination|R
+307|7|Teleport|Conjuration|
+308|5|Teleportation Circle|Conjuration|
+309|0|Thaumaturgy|Transmutation|
+310|1|Thunderwave|Evocation|
+311|9|Time Stop|Transmutation|
+312|3|Tiny Hut|Evocation|R
+313|3|Tongues|Divination|
+314|6|Transport via Plants|Conjuration|
+315|5|Tree Stride|Conjuration|C
+316|9|True Polymorph|Transmutation|C
+317|9|True Resurrection|Necromancy|
+318|6|True Seeing|Divination|
+319|0|True Strike|Divination|
+320|8|Tsunami|Conjuration|C
+321|1|Unseen Servant|Conjuration|R
+322|3|Vampiric Touch|Necromancy|C
+323|0|Vicious Mockery|Enchantment|
+324|4|Vitriolic Sphere|Evocation|
+325|4|Wall of Fire|Evocation|C
+326|5|Wall of Force|Evocation|C
+327|6|Wall of Ice|Evocation|C
+328|5|Wall of Stone|Evocation|C
+329|6|Wall of Thorns|Conjuration|C
+330|2|Warding Bond|Abjuration|
+331|3|Water Breathing|Transmutation|R
+332|3|Water Walk|Transmutation|R
+333|2|Web|Conjuration|C
+334|9|Weird|Illusion|C
+335|6|Wind Walk|Transmutation|
+336|3|Wind Wall|Evocation|C
+337|9|Wish|Conjuration|
+338|6|Word of Recall|Conjuration|
+339|2|Zone of Truth|Enchantment|
+340|6|Arcane Gate|Conjuration|CP
+341|2|Arcane Vigor|Abjuration|P
+342|1|Armor of Agathys|Abjuration|P
+343|1|Arms of Hadar|Conjuration|P
+344|4|Aura of Purity|Abjuration|CP
+345|3|Aura of Vitality|Abjuration|CP
+346|5|Banishing Smite|Conjuration|CP
+347|2|Beast Sense|Divination|CRP
+348|0|Blade Ward|Abjuration|CP
+349|3|Blinding Smite|Evocation|P
+350|5|Circle of Power|Abjuration|CP
+351|2|Cloud of Daggers|Conjuration|CP
+352|1|Compelled Duel|Enchantment|CP
+353|3|Conjure Barrage|Conjuration|P
+354|5|Conjure Volley|Conjuration|P
+355|2|Cordon of Arrows|Transmutation|P
+356|2|Crown of Madness|Enchantment|CP
+357|3|Crusader's Mantle|Evocation|CP
+358|5|Destructive Wave|Evocation|P
+359|3|Elemental Weapon|Transmutation|CP
+360|3|Feign Death|Necromancy|RP
+361|4|Fount of Moonlight|Evocation|CP
+362|0|Friends|Enchantment|CP
+363|4|Grasping Vine|Conjuration|CP
+364|1|Hail of Thorns|Conjuration|P
+365|3|Hunger of Hadar|Conjuration|CP
+366|5|Jallarzi's Storm of Radiance|Evocation|CP
+367|3|Lightning Arrow|Transmutation|P
+368|0|Mind Sliver|Enchantment|P
+369|7|Power Word Fortify|Enchantment|P
+370|4|Staggering Smite|Enchantment|P
+371|5|Steel Wind Strike|Conjuration|P
+372|4|Summon Aberration|Conjuration|CP
+373|2|Summon Beast|Conjuration|CP
+374|5|Summon Celestial|Conjuration|CP
+375|4|Summon Construct|Conjuration|CP
+376|4|Summon Elemental|Conjuration|CP
+377|3|Summon Fey|Conjuration|CP
+378|6|Summon Fiend|Conjuration|CP
+379|3|Summon Undead|Necromancy|CP
+380|5|Swift Quiver|Transmutation|CP
+381|5|Synaptic Static|Enchantment|P
+382|6|Tasha's Bubbling Cauldron|Conjuration|P
+383|8|Telepathy|Divination|P
+384|0|Thorn Whip|Transmutation|P
+385|0|Thunderclap|Evocation|P
+386|1|Thunderous Smite|Evocation|P
+387|0|Toll the Dead|Necromancy|P
+388|1|Witch Bolt|Evocation|CP
+389|0|Word of Radiance|Evocation|P
+390|1|Wrathful Smite|Necromancy|P
+391|5|Yolande's Regal Presence|Enchantment|CP

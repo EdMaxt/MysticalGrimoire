@@ -1,0 +1,13 @@
+name=Invisibility
+level=2
+school=Illusion
+classes=Bard, Sorcerer, Warlock, Wizard
+time=Action
+range=Touch
+comp=V, S, M (an eyelash in gum arabic)
+dur=Concentration, up to 1 hour
+flags=C
+---
+A creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.
+@HIGHER
+You can target one additional creature for each spell slot level above 2.

@@ -1,0 +1,11 @@
+name=See Invisibility
+level=2
+school=Divination
+classes=Bard, Sorcerer, Wizard
+time=Action
+range=Self
+comp=V, S, M (a pinch of talc)
+dur=1 hour
+flags=
+---
+For the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.

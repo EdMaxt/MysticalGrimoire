@@ -1,0 +1,11 @@
+name=Lesser Restoration
+level=2
+school=Abjuration
+classes=Bard, Cleric, Druid, Paladin, Ranger
+time=Bonus Action
+range=Touch
+comp=V, S
+dur=Instantaneous
+flags=
+---
+You touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.

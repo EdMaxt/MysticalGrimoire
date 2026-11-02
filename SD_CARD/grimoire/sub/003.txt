@@ -1,0 +1,40 @@
+name=Circle of the Land
+class=Druid
+source=SRD 5.2.1
+tagline=
+---
+SRD 5.2.1 subclass. This card lists only the spells it always prepares; read its features in the SRD or your Player's Handbook.
+@SPELLS
+Lv 3 Arid: Blur, Burning Hands, Fire Bolt
+Lv 5 Arid: Fireball
+Lv 7 Arid: Blight
+Lv 9 Arid: Wall of Stone
+Lv 3 Polar: Fog Cloud, Hold Person, Ray of Frost
+Lv 5 Polar: Sleet Storm
+Lv 7 Polar: Ice Storm
+Lv 9 Polar: Cone of Cold
+Lv 3 Temperate: Misty Step, Shocking Grasp, Sleep
+Lv 5 Temperate: Lightning Bolt
+Lv 7 Temperate: Freedom of Movement
+Lv 9 Temperate: Tree Stride
+Lv 3 Tropical: Acid Splash, Ray of Sickness, Web
+Lv 5 Tropical: Stinking Cloud
+Lv 7 Tropical: Polymorph
+Lv 9 Tropical: Insect Plague
+@GRANT
+3|Arid|035,036,123
+5|Arid|126
+7|Arid|032
+9|Arid|328
+3|Polar|133,169,252
+5|Polar|284
+7|Polar|174
+9|Polar|054
+3|Temperate|219,279,283
+5|Temperate|190
+7|Temperate|137
+9|Temperate|315
+3|Tropical|002,253,333
+5|Tropical|296
+7|Tropical|234
+9|Tropical|180

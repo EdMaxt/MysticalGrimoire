@@ -1,0 +1,10 @@
+.pio/
+.vscode/
+hosttest/hosttest
+
+# Neon Odyssey playtest data: personal use only
+SD_CARD/neon/
+data/neon_*.json
+
+# personal card with PHB text imported by tools/import_phb_es.py (copyrighted)
+SD_PERSONAL/

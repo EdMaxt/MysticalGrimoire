@@ -1,0 +1,11 @@
+name=Blur
+level=2
+school=Illusion
+classes=Sorcerer, Wizard
+time=Action
+range=Self
+comp=V
+dur=Concentration, up to 1 minute
+flags=C
+---
+Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.

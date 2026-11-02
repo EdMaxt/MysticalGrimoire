@@ -1,0 +1,11 @@
+name=Divine Favor
+level=1
+school=Transmutation
+classes=Paladin
+time=Bonus Action
+range=Self
+comp=V, S
+dur=1 minute
+flags=
+---
+Until the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit.

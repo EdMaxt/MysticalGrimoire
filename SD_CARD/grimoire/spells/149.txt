@@ -1,0 +1,11 @@
+name=Greater Invisibility
+level=4
+school=Illusion
+classes=Bard, Sorcerer, Wizard
+time=Action
+range=Touch
+comp=V, S
+dur=Concentration, up to 1 minute
+flags=C
+---
+A creature you touch has the Invisible condition until the spell ends.

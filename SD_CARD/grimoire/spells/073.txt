@@ -1,0 +1,13 @@
+name=Cure Wounds
+level=1
+school=Abjuration
+classes=Bard, Cleric, Druid, Paladin, Ranger
+time=Action
+range=Touch
+comp=V, S
+dur=Instantaneous
+flags=
+---
+A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.
+@HIGHER
+The healing increases by 2d8 for each spell slot level above 1.

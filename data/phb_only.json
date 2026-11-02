@@ -1,0 +1,578 @@
+[
+ {
+  "name": "Arcane Gate",
+  "level": 6,
+  "school": "Conjuration",
+  "classes": [
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Arcane Vigor",
+  "level": 2,
+  "school": "Abjuration",
+  "classes": [
+   "Sorcerer",
+   "Wizard"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Armor of Agathys",
+  "level": 1,
+  "school": "Abjuration",
+  "classes": [
+   "Warlock"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Arms of Hadar",
+  "level": 1,
+  "school": "Conjuration",
+  "classes": [
+   "Warlock"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Aura of Purity",
+  "level": 4,
+  "school": "Abjuration",
+  "classes": [
+   "Cleric",
+   "Paladin"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Aura of Vitality",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+   "Cleric",
+   "Druid",
+   "Paladin"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Banishing Smite",
+  "level": 5,
+  "school": "Conjuration",
+  "classes": [
+   "Paladin"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Beast Sense",
+  "level": 2,
+  "school": "Divination",
+  "classes": [
+   "Druid",
+   "Ranger"
+  ],
+  "concentration": true,
+  "ritual": true
+ },
+ {
+  "name": "Blade Ward",
+  "level": 0,
+  "school": "Abjuration",
+  "classes": [
+   "Bard",
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Blinding Smite",
+  "level": 3,
+  "school": "Evocation",
+  "classes": [
+   "Paladin"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Circle of Power",
+  "level": 5,
+  "school": "Abjuration",
+  "classes": [
+   "Cleric",
+   "Paladin",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Cloud of Daggers",
+  "level": 2,
+  "school": "Conjuration",
+  "classes": [
+   "Bard",
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Compelled Duel",
+  "level": 1,
+  "school": "Enchantment",
+  "classes": [
+   "Paladin"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Conjure Barrage",
+  "level": 3,
+  "school": "Conjuration",
+  "classes": [
+   "Ranger"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Conjure Volley",
+  "level": 5,
+  "school": "Conjuration",
+  "classes": [
+   "Ranger"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Cordon of Arrows",
+  "level": 2,
+  "school": "Transmutation",
+  "classes": [
+   "Ranger"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Crown of Madness",
+  "level": 2,
+  "school": "Enchantment",
+  "classes": [
+   "Bard",
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Crusader's Mantle",
+  "level": 3,
+  "school": "Evocation",
+  "classes": [
+   "Paladin"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Destructive Wave",
+  "level": 5,
+  "school": "Evocation",
+  "classes": [
+   "Paladin"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Elemental Weapon",
+  "level": 3,
+  "school": "Transmutation",
+  "classes": [
+   "Druid",
+   "Paladin",
+   "Ranger"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Feign Death",
+  "level": 3,
+  "school": "Necromancy",
+  "classes": [
+   "Bard",
+   "Cleric",
+   "Druid",
+   "Wizard"
+  ],
+  "concentration": false,
+  "ritual": true
+ },
+ {
+  "name": "Fount of Moonlight",
+  "level": 4,
+  "school": "Evocation",
+  "classes": [
+   "Bard",
+   "Druid"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Friends",
+  "level": 0,
+  "school": "Enchantment",
+  "classes": [
+   "Bard",
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Grasping Vine",
+  "level": 4,
+  "school": "Conjuration",
+  "classes": [
+   "Druid",
+   "Ranger"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Hail of Thorns",
+  "level": 1,
+  "school": "Conjuration",
+  "classes": [
+   "Ranger"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Hunger of Hadar",
+  "level": 3,
+  "school": "Conjuration",
+  "classes": [
+   "Warlock"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Jallarzi's Storm of Radiance",
+  "level": 5,
+  "school": "Evocation",
+  "classes": [
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Lightning Arrow",
+  "level": 3,
+  "school": "Transmutation",
+  "classes": [
+   "Ranger"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Mind Sliver",
+  "level": 0,
+  "school": "Enchantment",
+  "classes": [
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Power Word Fortify",
+  "level": 7,
+  "school": "Enchantment",
+  "classes": [
+   "Bard",
+   "Cleric"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Staggering Smite",
+  "level": 4,
+  "school": "Enchantment",
+  "classes": [
+   "Paladin"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Steel Wind Strike",
+  "level": 5,
+  "school": "Conjuration",
+  "classes": [
+   "Ranger",
+   "Wizard"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Summon Aberration",
+  "level": 4,
+  "school": "Conjuration",
+  "classes": [
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Summon Beast",
+  "level": 2,
+  "school": "Conjuration",
+  "classes": [
+   "Druid",
+   "Ranger"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Summon Celestial",
+  "level": 5,
+  "school": "Conjuration",
+  "classes": [
+   "Cleric",
+   "Paladin"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Summon Construct",
+  "level": 4,
+  "school": "Conjuration",
+  "classes": [
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Summon Elemental",
+  "level": 4,
+  "school": "Conjuration",
+  "classes": [
+   "Druid",
+   "Ranger",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Summon Fey",
+  "level": 3,
+  "school": "Conjuration",
+  "classes": [
+   "Druid",
+   "Ranger",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Summon Fiend",
+  "level": 6,
+  "school": "Conjuration",
+  "classes": [
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Summon Undead",
+  "level": 3,
+  "school": "Necromancy",
+  "classes": [
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Swift Quiver",
+  "level": 5,
+  "school": "Transmutation",
+  "classes": [
+   "Ranger"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Synaptic Static",
+  "level": 5,
+  "school": "Enchantment",
+  "classes": [
+   "Bard",
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Tasha's Bubbling Cauldron",
+  "level": 6,
+  "school": "Conjuration",
+  "classes": [
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Telepathy",
+  "level": 8,
+  "school": "Divination",
+  "classes": [
+   "Wizard"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Thorn Whip",
+  "level": 0,
+  "school": "Transmutation",
+  "classes": [
+   "Druid"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Thunderclap",
+  "level": 0,
+  "school": "Evocation",
+  "classes": [
+   "Bard",
+   "Druid",
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Thunderous Smite",
+  "level": 1,
+  "school": "Evocation",
+  "classes": [
+   "Paladin"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Toll the Dead",
+  "level": 0,
+  "school": "Necromancy",
+  "classes": [
+   "Cleric",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Witch Bolt",
+  "level": 1,
+  "school": "Evocation",
+  "classes": [
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ },
+ {
+  "name": "Word of Radiance",
+  "level": 0,
+  "school": "Evocation",
+  "classes": [
+   "Cleric"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Wrathful Smite",
+  "level": 1,
+  "school": "Necromancy",
+  "classes": [
+   "Paladin"
+  ],
+  "concentration": false,
+  "ritual": false
+ },
+ {
+  "name": "Yolande's Regal Presence",
+  "level": 5,
+  "school": "Enchantment",
+  "classes": [
+   "Bard",
+   "Wizard"
+  ],
+  "concentration": true,
+  "ritual": false
+ }
+]

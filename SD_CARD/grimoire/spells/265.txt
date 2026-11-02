@@ -1,0 +1,13 @@
+name=Scorching Ray
+level=2
+school=Evocation
+classes=Sorcerer, Wizard
+time=Action
+range=120 feet
+comp=V, S
+dur=Instantaneous
+flags=
+---
+You hurl three fiery rays. You can hurl them at one target within range or at several. Make a ranged spell attack for each ray. On a hit, the target takes 2d6 Fire damage.
+@HIGHER
+You create one additional ray for each spell slot level above 2.

@@ -1,0 +1,11 @@
+name=Misty Step
+level=2
+school=Conjuration
+classes=Sorcerer, Warlock, Wizard
+time=Bonus Action
+range=Self
+comp=V
+dur=Instantaneous
+flags=
+---
+Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.

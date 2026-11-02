@@ -1,0 +1,392 @@
+﻿PHB 2024 (Spanish) name,English name,Level,School,Status
+FLECHA ÁCIDA DE MELF,Acid Arrow,2,Evocation,in SRD
+SALPICADURA ÁCIDA,Acid Splash,0,Evocation,in SRD
+AUXILIO,Aid,2,Abjuration,in SRD
+ALARMA,Alarm,1,Abjuration,in SRD
+ALTERAR EL PROPIO ASPECTO,Alter Self,2,Transmutation,in SRD
+ENCANTAR ANIMAL,Animal Friendship,1,Enchantment,in SRD
+MENSAJERO ANIMAL,Animal Messenger,2,Enchantment,in SRD
+ASPECTOS ANIMALES,Animal Shapes,8,Transmutation,in SRD
+ANIMAR A LOS MUERTOS,Animate Dead,3,Necromancy,in SRD
+ANIMAR OBJETOS,Animate Objects,5,Transmutation,in SRD
+CAPARAZÓN ANTIVIDA,Antilife Shell,5,Abjuration,in SRD
+CAMPO ANTIMAGIA,Antimagic Field,8,Abjuration,in SRD
+ANTIPATÍA/SIMPATÍA,Antipathy/Sympathy,8,Enchantment,in SRD
+OJO ARCANO,Arcane Eye,4,Divination,in SRD
+PUERTA ARCANA,Arcane Gate,6,Conjuration,PHB only (not in SRD)
+MANO DE BiGBY,Arcane Hand,5,Evocation,in SRD
+CERRADURA ARCANA,Arcane Lock,2,Abjuration,in SRD
+ESPADA DE MORDENKAINEN,Arcane Sword,7,Evocation,in SRD
+VIGOR ARCANO,Arcane Vigor,2,Abjuration,PHB only (not in SRD)
+AURA MÁGICA DE NYSTUL,Arcanist’s Magic Aura,2,Illusion,in SRD
+ARMADURA DE AGATHYS,Armor of Agathys,1,Abjuration,PHB only (not in SRD)
+BRAZOS DE HADAR,Arms of Hadar,1,Conjuration,PHB only (not in SRD)
+PROYECCIÓN ASTRAL,Astral Projection,9,Necromancy,in SRD
+AUGURIO,Augury,2,Divination,in SRD
+AURA DE VIDA,Aura of Life,4,Abjuration,in SRD
+AURA DE PUREZA,Aura of Purity,4,Abjuration,PHB only (not in SRD)
+AURA DE VITALIDAD,Aura of Vitality,3,Abjuration,PHB only (not in SRD)
+DESPERTAR,Awaken,5,Transmutation,in SRD
+PERDICIÓN,Bane,1,Enchantment,in SRD
+CASTIGO DESTERRADOR,Banishing Smite,5,Conjuration,PHB only (not in SRD)
+DESTIERRO,Banishment,4,Abjuration,in SRD
+PIEL ROBLIZA,Barkskin,2,Transmutation,in SRD
+SEÑAL DE ESPERANZA,Beacon of Hope,3,Abjuration,in SRD
+SENTIDOS DE LA BESTIA,Beast Sense,2,Divination,PHB only (not in SRD)
+OFUSCACIÓN,Befuddlement,8,Enchantment,in SRD
+IMPONER MALDICIÓN,Bestow Curse,3,Necromancy,in SRD
+TENTÁCULOS NEGROS DE EVARD,Black Tentacles,4,Conjuration,in SRD
+BARRERA DE CUCHILLAS,Blade Barrier,6,Evocation,in SRD
+GUARDIA DE CUCHILLAS,Blade Ward,0,Abjuration,PHB only (not in SRD)
+BENDICIÓN,Bless,1,Enchantment,in SRD
+MARCHITAR,Blight,4,Necromancy,in SRD
+CASTIGO CEGADOR,Blinding Smite,3,Evocation,PHB only (not in SRD)
+SORDERA/CEGUERA,Blindness/Deafness,2,Transmutation,in SRD
+DESPLAZAMIENTO,Blink,3,Transmutation,in SRD
+CONTORNO BORROSO,Blur,2,Illusion,in SRD
+MANOS ARDIENTES,Burning Hands,1,Evocation,in SRD
+LLAMAR AL RELÁMPAGO,Call Lightning,3,Conjuration,in SRD
+CALMAR EMOCIONES,Calm Emotions,2,Enchantment,in SRD
+RELÁMPAGO EN CADENA,Chain Lightning,6,Evocation,in SRD
+HECHIZAR MONSTRUO,Charm Monster,4,Enchantment,in SRD
+HECHIZAR PERSONA,Charm Person,1,Enchantment,in SRD
+TOQUE HELADO,Chill Touch,0,Necromancy,in SRD
+ORBE CROMÁTICO,Chromatic Orb,1,Evocation,in SRD
+CÍRCULO DE MUERTE,Circle of Death,6,Necromancy,in SRD
+CÍRCULO DE PODER,Circle of Power,5,Abjuration,PHB only (not in SRD)
+CLARIVIDENCIA,Clairvoyance,3,Divination,in SRD
+CLON,Clone,8,Necromancy,in SRD
+NUBE DE DAGAS,Cloud of Daggers,2,Conjuration,PHB only (not in SRD)
+NUBE ANIQUILADORA,Cloudkill,5,Conjuration,in SRD
+ROCIADA DE COLOR,Color Spray,1,Illusion,in SRD
+ORDEN IMPERIOSA,Command,1,Enchantment,in SRD
+COMUNIÓN,Commune,5,Divination,in SRD
+COMUNIÓN CON LA NATURALEZA,Commune with Nature,5,Divination,in SRD
+DUELO FORZADO,Compelled Duel,1,Enchantment,PHB only (not in SRD)
+ENTENDER IDIOMAS,Comprehend Languages,1,Divination,in SRD
+COMPULSIÓN,Compulsion,4,Enchantment,in SRD
+CONO DE FRÍO,Cone of Cold,5,Evocation,in SRD
+CONFUSIÓN,Confusion,4,Enchantment,in SRD
+CONJURAR ANIMALES,Conjure Animals,3,Conjuration,in SRD
+CONJURAR DESCARGA DE PROYECTILES,Conjure Barrage,3,Conjuration,PHB only (not in SRD)
+CONJURAR CELESTIAL,Conjure Celestial,7,Conjuration,in SRD
+CONJURAR ELEMENTAL,Conjure Elemental,5,Conjuration,in SRD
+CONJURAR FEÉRICO,Conjure Fey,6,Conjuration,in SRD
+CONJURAR ELEMENTALES MENORES,Conjure Minor Elementals,4,Conjuration,in SRD
+CONJURAR LLUVIA DE FLECHAS,Conjure Volley,5,Conjuration,PHB only (not in SRD)
+CONJURAR SERES DEL BOSQUE,Conjure Woodland Beings,4,Conjuration,in SRD
+CONTACTAR CON OTRO PLANO,Contact Other Plane,5,Divination,in SRD
+CONTAGIO,Contagion,5,Necromancy,in SRD
+CONTINGENCIA,Contingency,6,Abjuration,in SRD
+LLAMA PERMANENTE,Continual Flame,2,Evocation,in SRD
+CONTROLAR AGUA,Control Water,4,Transmutation,in SRD
+CONTROLAR EL CLIMA,Control Weather,8,Transmutation,in SRD
+CORDÓN DE FLECHAS,Cordon of Arrows,2,Transmutation,PHB only (not in SRD)
+CONTRAHECHIZO,Counterspell,3,Abjuration,in SRD
+CREAR COMIDA Y AGUA,Create Food and Water,3,Conjuration,in SRD
+CREAR O DESTRUIR AGUA,Create or Destroy Water,1,Transmutation,in SRD
+CREAR MUERTO VIVIENTE,Create Undead,6,Necromancy,in SRD
+CREACIÓN,Creation,5,Illusion,in SRD
+CORONA DE LA LOCURA,Crown of Madness,2,Enchantment,PHB only (not in SRD)
+MANTO DEL CRUZADO,Crusader's Mantle,3,Evocation,PHB only (not in SRD)
+CURAR HERIDAS,Cure Wounds,1,Abjuration,in SRD
+LUCES DANZANTES,Dancing Lights,0,Illusion,in SRD
+OSCURIDAD,Darkness,2,Evocation,in SRD
+VISIÓN EN LA OSCURIDAD,Darkvision,2,Transmutation,in SRD
+Luz DEL DÍA,Daylight,3,Evocation,in SRD
+GUARDA CONTRA LA MUERTE,Death Ward,4,Abjuration,in SRD
+BOLA DE FUEGO DE EXPLOSIÓN RETARDADA,Delayed Blast Fireball,7,Evocation,in SRD
+SEMIPLANO,Demiplane,8,Conjuration,in SRD
+OLA DESTRUCTORA,Destructive Wave,5,Evocation,PHB only (not in SRD)
+DETECTAR EL BIEN Y EL MAL,Detect Evil and Good,1,Divination,in SRD
+DETECTAR MAGIA,Detect Magic,1,Divination,in SRD
+DETECTAR VENENOS Y ENFERMEDADES,Detect Poison and Disease,1,Divination,in SRD
+DETECTAR PENSAMIENTOS,Detect Thoughts,2,Divination,in SRD
+PUERTA DIMENSIONAL,Dimension Door,4,Conjuration,in SRD
+DISFRAZARSE,Disguise Self,1,Illusion,in SRD
+DESINTEGRAR,Disintegrate,6,Transmutation,in SRD
+DISIPAR EL BIEN Y EL MAL,Dispel Evil and Good,5,Abjuration,in SRD
+DISIPAR MAGIA,Dispel Magic,3,Abjuration,in SRD
+SUSURROS DISCORDANTES,Dissonant Whispers,1,Enchantment,in SRD
+ADIVINACIÓN,Divination,4,Divination,in SRD
+FAVOR DIVINO,Divine Favor,1,Transmutation,in SRD
+CASTIGO DIVINO,Divine Smite,1,Evocation,in SRD
+PALABRA DIVINA,Divine Word,7,Evocation,in SRD
+DOMINAR BESTIA,Dominate Beast,4,Enchantment,in SRD
+DOMINAR MONSTRUO,Dominate Monster,8,Enchantment,in SRD
+DOMINAR PERSONA,Dominate Person,5,Enchantment,in SRD
+ALIENTO DE DRAGÓN,Dragon’s Breath,2,Transmutation,in SRD
+ENSUEÑO,Dream,5,Illusion,in SRD
+SABER DRUÍDICO,Druidcraft,0,Transmutation,in SRD
+TERREMOTO,Earthquake,8,Transmutation,in SRD
+DESCARGA SOBRENATURAL,Eldritch Blast,0,Evocation,in SRD
+ARMA ELEMENTAL,Elemental Weapon,3,Transmutation,PHB only (not in SRD)
+ELEMENTALISMO,Elementalism,0,Transmutation,in SRD
+POTENCIAR CARACTERÍSTICA,Enhance Ability,2,Transmutation,in SRD
+AGRANDAR/REDUCIR,Enlarge/Reduce,2,Transmutation,in SRD
+GOLPE APRESADOR,Ensnaring Strike,1,Conjuration,in SRD
+ENMARAÑAR,Entangle,1,Conjuration,in SRD
+EMBELESAR,Enthrall,2,Enchantment,in SRD
+EXCURSIÓN ETÉREA,Etherealness,7,Conjuration,in SRD
+RETIRADA EXPEDITIVA,Expeditious Retreat,1,Transmutation,in SRD
+MAL DE Ojo,Eyebite,6,Necromancy,in SRD
+FABRICAR,Fabricate,4,Transmutation,in SRD
+FUEGO FEÉRICO,Faerie Fire,1,Evocation,in SRD
+MASTÍN FIEL DE MORDENKAINEN,Faithful Hound,4,Conjuration,in SRD
+FALSA VIDA,False Life,1,Necromancy,in SRD
+TERROR,Fear,3,Illusion,in SRD
+CAÍDA DE PLUMA,Feather Fall,1,Transmutation,in SRD
+FINGIR MUERTE,Feign Death,3,Necromancy,PHB only (not in SRD)
+ENCONTRAR FAMILIAR,Find Familiar,1,Conjuration,in SRD
+HALLAR CORCEL,Find Steed,2,Conjuration,in SRD
+ENCONTRAR EL CAMINO,Find the Path,6,Divination,in SRD
+DETECTAR TRAMPAS,Find Traps,2,Divination,in SRD
+DEDO DE LA MUERTE,Finger of Death,7,Necromancy,in SRD
+DESCARGA DE FUEGO,Fire Bolt,0,Evocation,in SRD
+ESCUDO DE FUEGO,Fire Shield,4,Evocation,in SRD
+TORMENTA DE FUEGO,Fire Storm,7,Evocation,in SRD
+BOLA DE FUEGO,Fireball,3,Evocation,in SRD
+HOJA DE FUEGO,Flame Blade,2,Evocation,in SRD
+GOLPE FLAMÍGERO,Flame Strike,5,Evocation,in SRD
+ESFERA DE LLAMAS,Flaming Sphere,2,Conjuration,in SRD
+DE LA CARNE A LA PIEDRA,Flesh to Stone,6,Transmutation,in SRD
+DIsco FLOTANTE DE TENSER,Floating Disk,1,Conjuration,in SRD
+VOLAR,Fly,3,Transmutation,in SRD
+NUBE DE OSCURECIMIENTO,Fog Cloud,1,Conjuration,in SRD
+PROHIBICIÓN,Forbiddance,6,Abjuration,in SRD
+JAULA DE FUERZA,Forcecage,7,Evocation,in SRD
+PRESCIENCIA,Foresight,9,Divination,in SRD
+FUENTE DE LUZ LUNAR,Fount of Moonlight,4,Evocation,PHB only (not in SRD)
+LIBERTAD DE MOVIMIENTO,Freedom of Movement,4,Abjuration,in SRD
+ESFERA CONGELANTE DE OTILUKE,Freezing Sphere,6,Evocation,in SRD
+AMISTAD,Friends,0,Enchantment,PHB only (not in SRD)
+FORMA GASEOSA,Gaseous Form,3,Transmutation,in SRD
+PORTAL,Gate,9,Conjuration,in SRD
+GEAS,Geas,5,Enchantment,in SRD
+DULCE DESCANSO,Gentle Repose,2,Necromancy,in SRD
+INSECTO GIGANTE,Giant Insect,4,Conjuration,in SRD
+LABIA,Glibness,8,Enchantment,in SRD
+GLOBO DE INVULNERABILIDAD,Globe of Invulnerability,6,Abjuration,in SRD
+GLIFO CUSTODIO,Glyph of Warding,3,Abjuration,in SRD
+BUENAS BAYAS,Goodberry,1,Conjuration,in SRD
+ENREDADERA,Grasping Vine,4,Conjuration,PHB only (not in SRD)
+GRASA,Grease,1,Conjuration,in SRD
+INVISIBILIDAD MEJORADA,Greater Invisibility,4,Illusion,in SRD
+RESTABLECIMIENTO MAYOR,Greater Restoration,5,Abjuration,in SRD
+GUARDIÁN DE LA FE,Guardian of Faith,4,Conjuration,in SRD
+GUARDAS Y GUARDIAS,Guards and Wards,6,Abjuration,in SRD
+GUÍA,Guidance,0,Divination,in SRD
+SAETA GUÍA,Guiding Bolt,1,Evocation,in SRD
+RÁFAGA DE VIENTO,Gust of Wind,2,Evocation,in SRD
+TORMENTA DE ESPINAS,Hail of Thorns,1,Conjuration,PHB only (not in SRD)
+CONSAGRAR,Hallow,5,Abjuration,in SRD
+TERRENO ALUCINATORIO,Hallucinatory Terrain,4,Illusion,in SRD
+DAÑAR,Harm,6,Necromancy,in SRD
+ACELERAR,Haste,3,Transmutation,in SRD
+CURAR,Heal,6,Abjuration,in SRD
+PALABRA DE CURACIÓN,Healing Word,1,Abjuration,in SRD
+CALENTAR METAL,Heat Metal,2,Transmutation,in SRD
+REPRENSIÓN INFERNAL,Hellish Rebuke,1,Evocation,in SRD
+FESTÍN DE HÉROES,Heroes’ Feast,6,Conjuration,in SRD
+HEroÍSMO,Heroism,1,Enchantment,in SRD
+MALEFICIO,Hex,1,Enchantment,in SRD
+RISA HORRIBLE DE TASHA,Hideous Laughter,1,Enchantment,in SRD
+INMOVILIZAR MONSTRUO,Hold Monster,5,Enchantment,in SRD
+INMOVILIZAR PERSONA,Hold Person,2,Enchantment,in SRD
+AURA SAGRADA,Holy Aura,8,Abjuration,in SRD
+HAMBRE DE HADAR,Hunger of Hadar,3,Conjuration,PHB only (not in SRD)
+MARCA DEL CAZADOR,Hunter’s Mark,1,Divination,in SRD
+PATRÓN HIPNÓTICO,Hypnotic Pattern,3,Illusion,in SRD
+CUCHILLO DE HIELO,Ice Knife,1,Conjuration,in SRD
+TORMENTA DE HIELO,Ice Storm,4,Evocation,in SRD
+IDENTIFICAR,Identify,1,Divination,in SRD
+TEXTO ILUSORIO,Illusory Script,1,Illusion,in SRD
+CAUTIVERIO,Imprisonment,9,Abjuration,in SRD
+NUBE INCENDIARIA,Incendiary Cloud,8,Conjuration,in SRD
+INFLIGIR HERIDAS,Inflict Wounds,1,Necromancy,in SRD
+PLAGA DE INSECTOS,Insect Plague,5,Conjuration,in SRD
+INVOCACIÓN INSTANTÁNEA DE DRAWMIJ,Instant Summons,6,Conjuration,in SRD
+INVISIBILIDAD,Invisibility,2,Illusion,in SRD
+BAILE IRRESISTIBLE DE OTTO,Irresistible Dance,6,Enchantment,in SRD
+TORMENTA RESPLANDECIENTE DE JALLARZI,Jallarzi's Storm of Radiance,5,Evocation,PHB only (not in SRD)
+SALTO,Jump,1,Transmutation,in SRD
+ABRIR,Knock,2,Transmutation,in SRD
+CONOCER LAS LEYENDAS,Legend Lore,5,Divination,in SRD
+RESTABLECIMIENTO MENOR,Lesser Restoration,2,Abjuration,in SRD
+LEVITAR,Levitate,2,Transmutation,in SRD
+Luz,Light,0,Evocation,in SRD
+FLECHA DE RELÁMPAGO,Lightning Arrow,3,Transmutation,PHB only (not in SRD)
+RELÁMPAGO,Lightning Bolt,3,Evocation,in SRD
+LOCALIZAR ANIMALES O PLANTAS,Locate Animals or Plants,2,Divination,in SRD
+LOCALIZAR CRIATURA,Locate Creature,4,Divination,in SRD
+LOCALIZAR OBJETO,Locate Object,2,Divination,in SRD
+ZANCADA PRODIGIOSA,Longstrider,1,Transmutation,in SRD
+ARMADURA DE MAGO,Mage Armor,1,Abjuration,in SRD
+MANO DE MAGO,Mage Hand,0,Conjuration,in SRD
+CÍRCULO MÁGICO,Magic Circle,3,Abjuration,in SRD
+URNA MÁGICA,Magic Jar,6,Necromancy,in SRD
+PROYECTIL MÁGICO,Magic Missile,1,Evocation,in SRD
+BOCA MÁGICA,Magic Mouth,2,Illusion,in SRD
+ARMA MÁGICA,Magic Weapon,2,Transmutation,in SRD
+MANSIÓN MAGNÍFICA DE MORDENKAINEN,Magnificent Mansion,7,Conjuration,in SRD
+IMAGEN MAYOR,Major Image,3,Illusion,in SRD
+CURAR HERIDAS EN MASA,Mass Cure Wounds,5,Abjuration,in SRD
+CURAR EN MASA,Mass Heal,9,Abjuration,in SRD
+PALABRA DE CURACIÓN EN MASA,Mass Healing Word,3,Abjuration,in SRD
+SUGESTIÓN EN MASA,Mass Suggestion,6,Enchantment,in SRD
+LABERINTO,Maze,8,Conjuration,in SRD
+FUNDIRSE CON LA PIEDRA,Meld into Stone,3,Transmutation,in SRD
+REPARAR,Mending,0,Transmutation,in SRD
+MENSAJE,Message,0,Transmutation,in SRD
+TORMENTA DE METEORITOS,Meteor Swarm,9,Evocation,in SRD
+MENTE EN BLANCO,Mind Blank,8,Abjuration,in SRD
+FRAGMENTO MENTAL,Mind Sliver,0,Enchantment,PHB only (not in SRD)
+CLAVO MENTAL,Mind Spike,2,Divination,in SRD
+ILUSIÓN MENOR,Minor Illusion,0,Illusion,in SRD
+ESPEJISMO ARCANO,Mirage Arcane,7,Illusion,in SRD
+IMAGEN MÚLTIPLE,Mirror Image,2,Illusion,in SRD
+ENGAÑAR,Mislead,5,Illusion,in SRD
+PASO BRUMOSO,Misty Step,2,Conjuration,in SRD
+ALTERAR LOS RECUERDOS,Modify Memory,5,Enchantment,in SRD
+RAYO DE LUNA,Moonbeam,2,Evocation,in SRD
+MOVER LA TIERRA,Move Earth,6,Transmutation,in SRD
+INDETECTABLE,Nondetection,3,Abjuration,in SRD
+PASAR SIN RASTRO,Pass without Trace,2,Abjuration,in SRD
+PASAMUROS,Passwall,5,Transmutation,in SRD
+FUERZA FANTASMAL,Phantasmal Force,2,Illusion,in SRD
+ASESINO FANTASMAL,Phantasmal Killer,4,Illusion,in SRD
+CORCEL FANTASMA,Phantom Steed,3,Illusion,in SRD
+ALIADO PLANAR,Planar Ally,6,Conjuration,in SRD
+ATADURA PLANAR,Planar Binding,5,Abjuration,in SRD
+DESPLAZAMIENTO ENTRE PLANOS,Plane Shift,7,Conjuration,in SRD
+CRECIMIENTO VEGETAL,Plant Growth,3,Transmutation,in SRD
+1d8 Rayo,Poison Spray,0,Necromancy,in SRD
+POLIMORFAR,Polymorph,4,Transmutation,in SRD
+PALABRA DE PODER: FORTALECER,Power Word Fortify,7,Enchantment,PHB only (not in SRD)
+PALABRA DE PODER: SANAR,Power Word Heal,9,Enchantment,in SRD
+PALABRA DE PODER: MATAR,Power Word Kill,9,Enchantment,in SRD
+PALABRA DE PODER: ATURDIR,Power Word Stun,8,Enchantment,in SRD
+PLEGARIA DE CURACIÓN,Prayer of Healing,2,Abjuration,in SRD
+PRESTIDIGITACIÓN,Prestidigitation,0,Transmutation,in SRD
+ROCIADA PRISMÁTICA,Prismatic Spray,7,Evocation,in SRD
+MURO PRISMÁTICO,Prismatic Wall,9,Abjuration,in SRD
+DE MORDENKAINEN,Private Sanctum,4,Abjuration,in SRD
+CREAR LLAMA,Produce Flame,0,Conjuration,in SRD
+ILUSIÓN PROGRAMADA,Programmed Illusion,6,Illusion,in SRD
+PROYECTAR IMAGEN,Project Image,7,Illusion,in SRD
+PROTECCIÓN CONTRA ENERGÍA,Protection from Energy,3,Abjuration,in SRD
+PROTECCIÓN CONTRA EL BIEN Y EL MAL,Protection from Evil and Good,1,Abjuration,in SRD
+PROTECCIÓN CONTRA VENENO,Protection from Poison,2,Abjuration,in SRD
+PURIFICAR COMIDA Y BEBIDA,Purify Food and Drink,1,Transmutation,in SRD
+ALZAR A LOS MUERTOS,Raise Dead,5,Necromancy,in SRD
+RAYO DEBILITADOR,Ray of Enfeeblement,2,Necromancy,in SRD
+RAYO DE ESCARCHA,Ray of Frost,0,Evocation,in SRD
+RAYO NAUSEABUNDO,Ray of Sickness,1,Necromancy,in SRD
+REGENERAR,Regenerate,7,Transmutation,in SRD
+REENCARNAR,Reincarnate,5,Necromancy,in SRD
+LEVANTAR MALDICIÓN,Remove Curse,3,Abjuration,in SRD
+ESFERA ELÁSTICA DE OTILUKE,Resilient Sphere,4,Abjuration,in SRD
+RESISTENCIA,Resistance,0,Abjuration,in SRD
+RESURRECCIÓN,Resurrection,7,Necromancy,in SRD
+INVERTIR LA GRAVEDAD,Reverse Gravity,7,Transmutation,in SRD
+REVIVIR,Revivify,3,Necromancy,in SRD
+TRUCO DE LA CUERDA,Rope Trick,2,Transmutation,in SRD
+LLAMA SAGRADA,Sacred Flame,0,Evocation,in SRD
+SANTUARIO,Sanctuary,1,Abjuration,in SRD
+RAYO ABRASADOR,Scorching Ray,2,Evocation,in SRD
+ESCUDRIÑAR,Scrying,5,Divination,in SRD
+CASTIGO ABRASADOR,Searing Smite,1,Evocation,in SRD
+COFRE OCULTO DE LEOMUND,Secret Chest,4,Conjuration,in SRD
+VER INVISIBILIDAD,See Invisibility,2,Divination,in SRD
+APARIENCIA,Seeming,5,Illusion,in SRD
+RECADO,Sending,3,Divination,in SRD
+RECLUIR,Sequester,7,Transmutation,in SRD
+CAMBIAR DE FORMA,Shapechange,9,Transmutation,in SRD
+HACER AÑICOS,Shatter,2,Evocation,in SRD
+Escupo,Shield,1,Abjuration,in SRD
+ESCUDO DE FE,Shield of Faith,1,Abjuration,in SRD
+SHILLELAGH,Shillelagh,0,Transmutation,in SRD
+ataque y deberá superar una tirada de salvación de,Shining Smite,2,Transmutation,in SRD
+AGARRE ELECTRIZANTE,Shocking Grasp,0,Evocation,in SRD
+SILENCIO,Silence,2,Illusion,in SRD
+IMAGEN SILENCIOSA,Silent Image,1,Illusion,in SRD
+SIMULACRO,Simulacrum,7,Illusion,in SRD
+DORMIR,Sleep,1,Enchantment,in SRD
+TORMENTA DE AGUANIEVE,Sleet Storm,3,Conjuration,in SRD
+RALENTIZAR,Slow,3,Transmutation,in SRD
+ESTALLIDO MÁGICO,Sorcerous Burst,0,Evocation,in SRD
+PIEDAD CON LOS MORIBUNDOS,Spare the Dying,0,Necromancy,in SRD
+HABLAR CON LOS ANIMALES,Speak with Animals,1,Divination,in SRD
+HABLAR CON LOS MUERTOS,Speak with Dead,3,Necromancy,in SRD
+HABLAR CON LAS PLANTAS,Speak with Plants,3,Transmutation,in SRD
+TREPAR CUAL ARÁCNIDO,Spider Climb,2,Transmutation,in SRD
+CRECIMIENTO ESPINOSO,Spike Growth,2,Transmutation,in SRD
+ESPÍRITUS GUARDIANES,Spirit Guardians,3,Conjuration,in SRD
+ARMA ESPIRITUAL,Spiritual Weapon,2,Evocation,in SRD
+CASTIGO ABRUMADOR,Staggering Smite,4,Enchantment,PHB only (not in SRD)
+VOLUTA ESTELAR,Starry Wisp,0,Evocation,in SRD
+GOLPE DE VIENTO ACERADO,Steel Wind Strike,5,Conjuration,PHB only (not in SRD)
+NUBE APESTOSA,Stinking Cloud,3,Conjuration,in SRD
+MOLDEAR LA PIEDRA,Stone Shape,4,Transmutation,in SRD
+PIEL PÉTREA,Stoneskin,4,Transmutation,in SRD
+TORMENTA DE LA VENGANZA,Storm of Vengeance,9,Conjuration,in SRD
+SUGESTIÓN,Suggestion,2,Enchantment,in SRD
+INVOCAR ABERRACIÓN,Summon Aberration,4,Conjuration,PHB only (not in SRD)
+INVOCAR BESTIA,Summon Beast,2,Conjuration,PHB only (not in SRD)
+INVOCAR CELESTIAL,Summon Celestial,5,Conjuration,PHB only (not in SRD)
+INVOCAR AUTÓMATA,Summon Construct,4,Conjuration,PHB only (not in SRD)
+INVOCAR DRAGÓN,Summon Dragon,5,Conjuration,in SRD
+INVOCAR ELEMENTAL,Summon Elemental,4,Conjuration,PHB only (not in SRD)
+INVOCAR FEÉRICO,Summon Fey,3,Conjuration,PHB only (not in SRD)
+INVOCAR INFERNAL,Summon Fiend,6,Conjuration,PHB only (not in SRD)
+INVOCAR MUERTO VIVIENTE,Summon Undead,3,Necromancy,PHB only (not in SRD)
+RAYO SOLAR,Sunbeam,6,Evocation,in SRD
+EXPLOSIÓN SOLAR,Sunburst,8,Evocation,in SRD
+CARCAJ VELOZ,Swift Quiver,5,Transmutation,PHB only (not in SRD)
+SÍMBOLO,Symbol,7,Abjuration,in SRD
+ESTÁTICA SINÁPTICA,Synaptic Static,5,Enchantment,PHB only (not in SRD)
+CALDERO BURBUJEANTE DE TASHA,Tasha's Bubbling Cauldron,6,Conjuration,PHB only (not in SRD)
+TELEQUINESIS,Telekinesis,5,Transmutation,in SRD
+ENLACE TELEPÁTICO DE RARY,Telepathic Bond,5,Divination,in SRD
+TELEPATÍA,Telepathy,8,Divination,PHB only (not in SRD)
+TELETRANSPORTE,Teleport,7,Conjuration,in SRD
+CÍRCULO DE TELETRANSPORTACIÓN,Teleportation Circle,5,Conjuration,in SRD
+TAUMATURGIA,Thaumaturgy,0,Transmutation,in SRD
+LÁTIGO DE ESPINAS,Thorn Whip,0,Transmutation,PHB only (not in SRD)
+TRONAR,Thunderclap,0,Evocation,PHB only (not in SRD)
+CASTIGO ATRONADOR,Thunderous Smite,1,Evocation,PHB only (not in SRD)
+OLA ATRONADORA,Thunderwave,1,Evocation,in SRD
+PARAR EL TIEMPO,Time Stop,9,Transmutation,in SRD
+PEQUEÑA CHOZA DE LEOMUND,Tiny Hut,3,Evocation,in SRD
+TAÑIDO POR LOS MUERTOS,Toll the Dead,0,Necromancy,PHB only (not in SRD)
+DON DE LENGUAS,Tongues,3,Divination,in SRD
+VIAJAR MEDIANTE PLANTAS,Transport via Plants,6,Conjuration,in SRD
+PASO ARBÓREO,Tree Stride,5,Conjuration,in SRD
+POLIMORFAR VERDADERO,True Polymorph,9,Transmutation,in SRD
+RESURRECCIÓN VERDADERA,True Resurrection,9,Necromancy,in SRD
+VISIÓN VERAZ,True Seeing,6,Divination,in SRD
+IMPACTO CERTERO,True Strike,0,Divination,in SRD
+TSUNAMI,Tsunami,8,Conjuration,in SRD
+SIRVIENTE INVISIBLE,Unseen Servant,1,Conjuration,in SRD
+TOQUE VAMPÍRICO,Vampiric Touch,3,Necromancy,in SRD
+BURLA DAÑINA,Vicious Mockery,0,Enchantment,in SRD
+ESFERA VITRIÓLICA,Vitriolic Sphere,4,Evocation,in SRD
+MURO DE FUEGO,Wall of Fire,4,Evocation,in SRD
+MURO DE FUERZA,Wall of Force,5,Evocation,in SRD
+MURO DE HIELO,Wall of Ice,6,Evocation,in SRD
+MURO DE PIEDRA,Wall of Stone,5,Evocation,in SRD
+MURO DE ESPINAS,Wall of Thorns,6,Conjuration,in SRD
+VÍNCULO PROTECTOR,Warding Bond,2,Abjuration,in SRD
+RESPIRAR BAJO EL AGUA,Water Breathing,3,Transmutation,in SRD
+CAMINAR SOBRE EL AGUA,Water Walk,3,Transmutation,in SRD
+TELARAÑA,Web,2,Conjuration,in SRD
+TERROR ABYECTO,Weird,9,Illusion,in SRD
+VIAJAR CON EL VIENTO,Wind Walk,6,Transmutation,in SRD
+MURO DE VIENTO,Wind Wall,3,Evocation,in SRD
+Deseo,Wish,9,Conjuration,in SRD
+RAYO DE HECHICERÍA,Witch Bolt,1,Evocation,PHB only (not in SRD)
+PALABRA DE RESPLANDOR,Word of Radiance,0,Evocation,PHB only (not in SRD)
+PALABRA DE REGRESO,Word of Recall,6,Conjuration,in SRD
+CASTIGO FURIOSO,Wrathful Smite,1,Necromancy,PHB only (not in SRD)
+PRESENCIA REGIA DE YOLANDE,Yolande's Regal Presence,5,Enchantment,PHB only (not in SRD)
+ZONA DE LA VERDAD,Zone of Truth,2,Enchantment,in SRD

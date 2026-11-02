@@ -1,0 +1,11 @@
+name=Protection from Energy
+level=3
+school=Abjuration
+classes=Cleric, Druid, Ranger, Sorcerer, Wizard
+time=Action
+range=Touch
+comp=V, S
+dur=Concentration, up to 1 hour
+flags=C
+---
+For the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder.

@@ -1,0 +1,11 @@
+name=Antilife Shell
+level=5
+school=Abjuration
+classes=Druid
+time=Action
+range=Self
+comp=V, S
+dur=Concentration, up to 1 hour
+flags=C
+---
+An aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells or make attacks with Ranged or Reach weapons through the barrier. If you move so that an affected creature is forced to pass through the barrier, the spell ends.

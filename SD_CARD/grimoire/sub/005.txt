@@ -1,0 +1,6 @@
+name=Hunter
+class=Ranger
+source=SRD 5.2.1
+tagline=
+---
+SRD 5.2.1 subclass. This card lists only the spells it always prepares; read its features in the SRD or your Player's Handbook.

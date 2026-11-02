@@ -1,0 +1,135 @@
+100|0|Druidcraft|Transmutation|
+103|0|Elementalism|Transmutation|
+153|0|Guidance|Divination|C
+210|0|Mending|Transmutation|
+211|0|Message|Transmutation|
+233|0|Poison Spray|Necromancy|
+243|0|Produce Flame|Conjuration|
+258|0|Resistance|Abjuration|C
+277|0|Shillelagh|Transmutation|
+287|0|Spare the Dying|Necromancy|
+295|0|Starry Wisp|Evocation|
+384|0|Thorn Whip|Transmutation|P
+385|0|Thunderclap|Evocation|P
+006|1|Animal Friendship|Enchantment|
+041|1|Charm Person|Enchantment|
+070|1|Create or Destroy Water|Transmutation|
+073|1|Cure Wounds|Abjuration|
+082|1|Detect Magic|Divination|CR
+083|1|Detect Poison and Disease|Divination|CR
+107|1|Entangle|Conjuration|C
+113|1|Faerie Fire|Evocation|C
+133|1|Fog Cloud|Conjuration|C
+147|1|Goodberry|Conjuration|
+161|1|Healing Word|Abjuration|
+173|1|Ice Knife|Conjuration|
+184|1|Jump|Transmutation|
+194|1|Longstrider|Transmutation|
+247|1|Protection from Evil and Good|Abjuration|C
+249|1|Purify Food and Drink|Transmutation|R
+288|1|Speak with Animals|Divination|R
+310|1|Thunderwave|Evocation|
+003|2|Aid|Abjuration|
+007|2|Animal Messenger|Enchantment|R
+020|2|Augury|Divination|R
+025|2|Barkskin|Transmutation|
+347|2|Beast Sense|Divination|CRP
+065|2|Continual Flame|Evocation|
+076|2|Darkvision|Transmutation|
+104|2|Enhance Ability|Transmutation|C
+105|2|Enlarge/Reduce|Transmutation|C
+121|2|Find Traps|Divination|
+127|2|Flame Blade|Evocation|C
+129|2|Flaming Sphere|Conjuration|C
+155|2|Gust of Wind|Evocation|C
+162|2|Heat Metal|Transmutation|C
+169|2|Hold Person|Enchantment|C
+187|2|Lesser Restoration|Abjuration|
+191|2|Locate Animals or Plants|Divination|R
+193|2|Locate Object|Divination|C
+221|2|Moonbeam|Evocation|C
+224|2|Pass without Trace|Abjuration|C
+248|2|Protection from Poison|Abjuration|
+292|2|Spike Growth|Transmutation|C
+373|2|Summon Beast|Conjuration|CP
+345|3|Aura of Vitality|Abjuration|CP
+037|3|Call Lightning|Conjuration|C
+056|3|Conjure Animals|Conjuration|C
+077|3|Daylight|Evocation|
+089|3|Dispel Magic|Abjuration|
+359|3|Elemental Weapon|Transmutation|CP
+360|3|Feign Death|Necromancy|RP
+209|3|Meld into Stone|Transmutation|R
+232|3|Plant Growth|Transmutation|
+246|3|Protection from Energy|Abjuration|C
+261|3|Revivify|Necromancy|
+284|3|Sleet Storm|Conjuration|C
+290|3|Speak with Plants|Transmutation|
+377|3|Summon Fey|Conjuration|CP
+331|3|Water Breathing|Transmutation|R
+332|3|Water Walk|Transmutation|R
+336|3|Wind Wall|Evocation|C
+032|4|Blight|Necromancy|
+040|4|Charm Monster|Enchantment|
+055|4|Confusion|Enchantment|C
+060|4|Conjure Minor Elementals|Conjuration|C
+061|4|Conjure Woodland Beings|Conjuration|C
+066|4|Control Water|Transmutation|C
+091|4|Divination|Divination|R
+095|4|Dominate Beast|Enchantment|C
+124|4|Fire Shield|Evocation|
+361|4|Fount of Moonlight|Evocation|CP
+137|4|Freedom of Movement|Abjuration|
+143|4|Giant Insect|Conjuration|C
+363|4|Grasping Vine|Conjuration|CP
+157|4|Hallucinatory Terrain|Illusion|
+174|4|Ice Storm|Evocation|
+192|4|Locate Creature|Divination|C
+234|4|Polymorph|Transmutation|C
+297|4|Stone Shape|Transmutation|
+298|4|Stoneskin|Transmutation|C
+376|4|Summon Elemental|Conjuration|CP
+325|4|Wall of Fire|Evocation|C
+011|5|Antilife Shell|Abjuration|C
+022|5|Awaken|Transmutation|
+051|5|Commune with Nature|Divination|R
+054|5|Cone of Cold|Evocation|
+058|5|Conjure Elemental|Conjuration|C
+063|5|Contagion|Necromancy|
+141|5|Geas|Enchantment|
+150|5|Greater Restoration|Abjuration|
+180|5|Insect Plague|Conjuration|C
+204|5|Mass Cure Wounds|Abjuration|
+230|5|Planar Binding|Abjuration|
+255|5|Reincarnate|Necromancy|
+266|5|Scrying|Divination|C
+315|5|Tree Stride|Conjuration|C
+328|5|Wall of Stone|Evocation|C
+059|6|Conjure Fey|Conjuration|C
+120|6|Find the Path|Divination|C
+130|6|Flesh to Stone|Transmutation|C
+160|6|Heal|Abjuration|
+164|6|Heroes’ Feast|Conjuration|
+222|6|Move Earth|Transmutation|C
+302|6|Sunbeam|Evocation|C
+314|6|Transport via Plants|Conjuration|
+329|6|Wall of Thorns|Conjuration|C
+335|6|Wind Walk|Transmutation|
+125|7|Fire Storm|Evocation|
+216|7|Mirage Arcane|Illusion|
+231|7|Plane Shift|Conjuration|
+254|7|Regenerate|Transmutation|
+260|7|Reverse Gravity|Transmutation|C
+304|7|Symbol|Abjuration|
+008|8|Animal Shapes|Transmutation|
+013|8|Antipathy/Sympathy|Enchantment|
+027|8|Befuddlement|Enchantment|
+067|8|Control Weather|Transmutation|C
+101|8|Earthquake|Transmutation|C
+178|8|Incendiary Cloud|Conjuration|C
+303|8|Sunburst|Evocation|
+320|8|Tsunami|Conjuration|C
+136|9|Foresight|Divination|
+273|9|Shapechange|Transmutation|C
+299|9|Storm of Vengeance|Conjuration|C
+317|9|True Resurrection|Necromancy|

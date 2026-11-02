@@ -1,0 +1,11 @@
+name=Stoneskin
+level=4
+school=Transmutation
+classes=Druid, Ranger, Sorcerer, Wizard
+time=Action
+range=Touch
+comp=V, S, M (diamond dust worth 100+ GP, which the spell consumes)
+dur=Concentration, up to 1 hour
+flags=C
+---
+Until the spell ends, one willing creature you touch has Resistance to Bludgeoning, Piercing, and Slashing damage.

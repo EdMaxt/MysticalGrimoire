@@ -1,0 +1,11 @@
+name=Darkvision
+level=2
+school=Transmutation
+classes=Druid, Ranger, Sorcerer, Wizard
+time=Action
+range=Touch
+comp=V, S, M (a dried carrot)
+dur=8 hours
+flags=
+---
+For the duration, a willing creature you touch has Darkvision with a range of 150 feet.

@@ -1,0 +1,23 @@
+{
+ "always": [["Paladin", 2, "Divine Smite"], ["Ranger", 1, "Hunter’s Mark"]],
+ "subclasses": [
+  {"cls": "Bard", "name": "College of Lore", "grants": []},
+  {"cls": "Cleric", "name": "Life Domain", "grants": [
+    [3, "", "Aid, Bless, Cure Wounds, Lesser Restoration"], [5, "", "Mass Healing Word, Revivify"],
+    [7, "", "Aura of Life, Death Ward"], [9, "", "Greater Restoration, Mass Cure Wounds"]]},
+  {"cls": "Druid", "name": "Circle of the Land", "grants": [
+    [3, "Arid", "Blur, Burning Hands, Fire Bolt"], [5, "Arid", "Fireball"], [7, "Arid", "Blight"], [9, "Arid", "Wall of Stone"],
+    [3, "Polar", "Fog Cloud, Hold Person, Ray of Frost"], [5, "Polar", "Sleet Storm"], [7, "Polar", "Ice Storm"], [9, "Polar", "Cone of Cold"],
+    [3, "Temperate", "Misty Step, Shocking Grasp, Sleep"], [5, "Temperate", "Lightning Bolt"], [7, "Temperate", "Freedom of Movement"], [9, "Temperate", "Tree Stride"],
+    [3, "Tropical", "Acid Splash, Ray of Sickness, Web"], [5, "Tropical", "Stinking Cloud"], [7, "Tropical", "Polymorph"], [9, "Tropical", "Insect Plague"]]},
+  {"cls": "Paladin", "name": "Oath of Devotion", "grants": [
+    [3, "", "Protection from Evil and Good, Shield of Faith"], [5, "", "Aid, Zone of Truth"], [9, "", "Beacon of Hope, Dispel Magic"],
+    [13, "", "Freedom of Movement, Guardian of Faith"], [17, "", "Commune, Flame Strike"]]},
+  {"cls": "Ranger", "name": "Hunter", "grants": []},
+  {"cls": "Sorcerer", "name": "Draconic Sorcery", "grants": [
+    [3, "", "Alter Self, Chromatic Orb, Command, Dragon’s Breath"], [5, "", "Fear, Fly"], [7, "", "Arcane Eye, Charm Monster"], [9, "", "Legend Lore, Summon Dragon"]]},
+  {"cls": "Warlock", "name": "Fiend Patron", "grants": [
+    [3, "", "Burning Hands, Command, Scorching Ray, Suggestion"], [5, "", "Fireball, Stinking Cloud"], [7, "", "Fire Shield, Wall of Fire"], [9, "", "Geas, Insect Plague"]]},
+  {"cls": "Wizard", "name": "Evoker", "grants": []}
+ ]
+}

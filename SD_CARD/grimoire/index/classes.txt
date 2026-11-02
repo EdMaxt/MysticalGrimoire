@@ -1,0 +1,9 @@
+# class|spell_count|max_spell_level|subclass_count|based_on
+Bard|140|9|1|
+Cleric|117|9|1|
+Druid|135|9|1|
+Paladin|51|5|1|
+Ranger|61|5|1|
+Sorcerer|150|9|1|
+Warlock|91|9|1|
+Wizard|242|9|1|

@@ -1,0 +1,11 @@
+name=Beacon of Hope
+level=3
+school=Abjuration
+classes=Cleric
+time=Action
+range=30 feet
+comp=V, S
+dur=Concentration, up to 1 minute
+flags=C
+---
+Choose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.

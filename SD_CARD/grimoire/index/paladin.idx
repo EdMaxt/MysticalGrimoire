@@ -1,0 +1,51 @@
+031|1|Bless|Enchantment|C
+049|1|Command|Enchantment|
+352|1|Compelled Duel|Enchantment|CP
+073|1|Cure Wounds|Abjuration|
+081|1|Detect Evil and Good|Divination|C
+082|1|Detect Magic|Divination|CR
+083|1|Detect Poison and Disease|Divination|CR
+092|1|Divine Favor|Transmutation|
+093|1|Divine Smite|Evocation|
+165|1|Heroism|Enchantment|C
+247|1|Protection from Evil and Good|Abjuration|C
+249|1|Purify Food and Drink|Transmutation|R
+267|1|Searing Smite|Evocation|
+276|1|Shield of Faith|Abjuration|C
+386|1|Thunderous Smite|Evocation|P
+390|1|Wrathful Smite|Necromancy|P
+003|2|Aid|Abjuration|
+119|2|Find Steed|Conjuration|
+142|2|Gentle Repose|Necromancy|R
+187|2|Lesser Restoration|Abjuration|
+193|2|Locate Object|Divination|C
+201|2|Magic Weapon|Transmutation|
+238|2|Prayer of Healing|Abjuration|
+248|2|Protection from Poison|Abjuration|
+278|2|Shining Smite|Transmutation|C
+330|2|Warding Bond|Abjuration|
+339|2|Zone of Truth|Enchantment|
+345|3|Aura of Vitality|Abjuration|CP
+349|3|Blinding Smite|Evocation|P
+069|3|Create Food and Water|Conjuration|
+357|3|Crusader's Mantle|Evocation|CP
+077|3|Daylight|Evocation|
+089|3|Dispel Magic|Abjuration|
+359|3|Elemental Weapon|Transmutation|CP
+197|3|Magic Circle|Abjuration|
+256|3|Remove Curse|Abjuration|
+261|3|Revivify|Necromancy|
+021|4|Aura of Life|Abjuration|C
+344|4|Aura of Purity|Abjuration|CP
+024|4|Banishment|Abjuration|C
+078|4|Death Ward|Abjuration|
+192|4|Locate Creature|Divination|C
+370|4|Staggering Smite|Enchantment|P
+346|5|Banishing Smite|Conjuration|CP
+350|5|Circle of Power|Abjuration|CP
+358|5|Destructive Wave|Evocation|P
+088|5|Dispel Evil and Good|Abjuration|C
+141|5|Geas|Enchantment|
+150|5|Greater Restoration|Abjuration|
+250|5|Raise Dead|Necromancy|
+374|5|Summon Celestial|Conjuration|CP

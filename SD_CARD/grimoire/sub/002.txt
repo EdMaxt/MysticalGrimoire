@@ -1,0 +1,16 @@
+name=Life Domain
+class=Cleric
+source=SRD 5.2.1
+tagline=
+---
+SRD 5.2.1 subclass. This card lists only the spells it always prepares; read its features in the SRD or your Player's Handbook.
+@SPELLS
+Lv 3: Aid, Bless, Cure Wounds, Lesser Restoration
+Lv 5: Mass Healing Word, Revivify
+Lv 7: Aura of Life, Death Ward
+Lv 9: Greater Restoration, Mass Cure Wounds
+@GRANT
+3||003,031,073,187
+5||206,261
+7||021,078
+9||150,204

@@ -1,0 +1,11 @@
+name=Guidance
+level=0
+school=Divination
+classes=Cleric, Druid
+time=Action
+range=Touch
+comp=V, S
+dur=Concentration, up to 1 minute
+flags=C
+---
+You touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.

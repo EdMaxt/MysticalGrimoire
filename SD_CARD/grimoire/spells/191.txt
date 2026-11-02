@@ -1,0 +1,11 @@
+name=Locate Animals or Plants
+level=2
+school=Divination
+classes=Bard, Druid, Ranger
+time=Action or Ritual
+range=Self
+comp=V, S, M (fur from a bloodhound)
+dur=Instantaneous
+flags=R
+---
+Describe or name a specific kind of Beast, Plant creature, or nonmagical plant. You learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.

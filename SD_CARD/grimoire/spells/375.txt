@@ -1,0 +1,11 @@
+name=Summon Construct
+level=4
+school=Conjuration
+classes=Wizard
+time=
+range=
+comp=
+dur=
+flags=CP
+---
+This spell is in the Player's Handbook (2024) but not in the free SRD 5.2.1, so its text is not included on this card. Look it up in your book. Name, level, school and class lists are shown so your class spell lists are complete.

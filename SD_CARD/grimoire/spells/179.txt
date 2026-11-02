@@ -1,0 +1,13 @@
+name=Inflict Wounds
+level=1
+school=Necromancy
+classes=Cleric
+time=Action
+range=Touch
+comp=V, S
+dur=Instantaneous
+flags=
+---
+A creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.
+@HIGHER
+The damage increases by 1d10 for each spell slot level above 1.

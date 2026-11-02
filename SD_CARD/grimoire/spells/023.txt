@@ -1,0 +1,13 @@
+name=Bane
+level=1
+school=Enchantment
+classes=Bard, Cleric, Warlock
+time=Action
+range=30 feet
+comp=V, S, M (a drop of blood)
+dur=Concentration, up to 1 minute
+flags=C
+---
+Up to three creatures of your choice that you can see within range must each make a Charisma saving throw. Whenever a target that fails this save makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.
+@HIGHER
+You can target one additional creature for each spell slot level above 1.

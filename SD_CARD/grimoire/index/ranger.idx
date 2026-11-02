@@ -1,0 +1,61 @@
+004|1|Alarm|Abjuration|R
+006|1|Animal Friendship|Enchantment|
+073|1|Cure Wounds|Abjuration|
+082|1|Detect Magic|Divination|CR
+083|1|Detect Poison and Disease|Divination|CR
+106|1|Ensnaring Strike|Conjuration|C
+107|1|Entangle|Conjuration|C
+133|1|Fog Cloud|Conjuration|C
+147|1|Goodberry|Conjuration|
+364|1|Hail of Thorns|Conjuration|P
+171|1|Hunter’s Mark|Divination|C
+184|1|Jump|Transmutation|
+194|1|Longstrider|Transmutation|
+288|1|Speak with Animals|Divination|R
+003|2|Aid|Abjuration|
+007|2|Animal Messenger|Enchantment|R
+025|2|Barkskin|Transmutation|
+347|2|Beast Sense|Divination|CRP
+355|2|Cordon of Arrows|Transmutation|P
+076|2|Darkvision|Transmutation|
+104|2|Enhance Ability|Transmutation|C
+121|2|Find Traps|Divination|
+155|2|Gust of Wind|Evocation|C
+187|2|Lesser Restoration|Abjuration|
+191|2|Locate Animals or Plants|Divination|R
+193|2|Locate Object|Divination|C
+201|2|Magic Weapon|Transmutation|
+224|2|Pass without Trace|Abjuration|C
+248|2|Protection from Poison|Abjuration|
+280|2|Silence|Illusion|CR
+292|2|Spike Growth|Transmutation|C
+373|2|Summon Beast|Conjuration|CP
+056|3|Conjure Animals|Conjuration|C
+353|3|Conjure Barrage|Conjuration|P
+077|3|Daylight|Evocation|
+089|3|Dispel Magic|Abjuration|
+359|3|Elemental Weapon|Transmutation|CP
+367|3|Lightning Arrow|Transmutation|P
+209|3|Meld into Stone|Transmutation|R
+223|3|Nondetection|Abjuration|
+232|3|Plant Growth|Transmutation|
+246|3|Protection from Energy|Abjuration|C
+261|3|Revivify|Necromancy|
+290|3|Speak with Plants|Transmutation|
+377|3|Summon Fey|Conjuration|CP
+331|3|Water Breathing|Transmutation|R
+332|3|Water Walk|Transmutation|R
+336|3|Wind Wall|Evocation|C
+061|4|Conjure Woodland Beings|Conjuration|C
+095|4|Dominate Beast|Enchantment|C
+137|4|Freedom of Movement|Abjuration|
+363|4|Grasping Vine|Conjuration|CP
+192|4|Locate Creature|Divination|C
+298|4|Stoneskin|Transmutation|C
+376|4|Summon Elemental|Conjuration|CP
+051|5|Commune with Nature|Divination|R
+354|5|Conjure Volley|Conjuration|P
+150|5|Greater Restoration|Abjuration|
+371|5|Steel Wind Strike|Conjuration|P
+380|5|Swift Quiver|Transmutation|CP
+315|5|Tree Stride|Conjuration|C

@@ -1,0 +1,11 @@
+name=Purify Food and Drink
+level=1
+school=Transmutation
+classes=Cleric, Druid, Paladin
+time=Action or Ritual
+range=10 feet
+comp=V, S
+dur=Instantaneous
+flags=R
+---
+You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.

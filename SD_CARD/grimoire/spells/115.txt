@@ -1,0 +1,13 @@
+name=False Life
+level=1
+school=Necromancy
+classes=Sorcerer, Wizard
+time=Action
+range=Self
+comp=V, S, M (a drop of alcohol)
+dur=Instantaneous
+flags=
+---
+You gain 2d4 + 4 Temporary Hit Points.
+@HIGHER
+You gain 5 additional Temporary Hit Points for each spell slot level above 1.

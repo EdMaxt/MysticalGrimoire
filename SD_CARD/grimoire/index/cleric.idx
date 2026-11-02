@@ -1,0 +1,117 @@
+153|0|Guidance|Divination|C
+189|0|Light|Evocation|
+210|0|Mending|Transmutation|
+258|0|Resistance|Abjuration|C
+263|0|Sacred Flame|Evocation|
+287|0|Spare the Dying|Necromancy|
+309|0|Thaumaturgy|Transmutation|
+387|0|Toll the Dead|Necromancy|P
+389|0|Word of Radiance|Evocation|P
+023|1|Bane|Enchantment|C
+031|1|Bless|Enchantment|C
+049|1|Command|Enchantment|
+070|1|Create or Destroy Water|Transmutation|
+073|1|Cure Wounds|Abjuration|
+081|1|Detect Evil and Good|Divination|C
+082|1|Detect Magic|Divination|CR
+083|1|Detect Poison and Disease|Divination|CR
+154|1|Guiding Bolt|Evocation|
+161|1|Healing Word|Abjuration|
+179|1|Inflict Wounds|Necromancy|
+247|1|Protection from Evil and Good|Abjuration|C
+249|1|Purify Food and Drink|Transmutation|R
+264|1|Sanctuary|Abjuration|
+276|1|Shield of Faith|Abjuration|C
+003|2|Aid|Abjuration|
+020|2|Augury|Divination|R
+033|2|Blindness/Deafness|Transmutation|
+038|2|Calm Emotions|Enchantment|C
+065|2|Continual Flame|Evocation|
+104|2|Enhance Ability|Transmutation|C
+121|2|Find Traps|Divination|
+142|2|Gentle Repose|Necromancy|R
+169|2|Hold Person|Enchantment|C
+187|2|Lesser Restoration|Abjuration|
+193|2|Locate Object|Divination|C
+238|2|Prayer of Healing|Abjuration|
+248|2|Protection from Poison|Abjuration|
+280|2|Silence|Illusion|CR
+294|2|Spiritual Weapon|Evocation|C
+330|2|Warding Bond|Abjuration|
+339|2|Zone of Truth|Enchantment|
+009|3|Animate Dead|Necromancy|
+345|3|Aura of Vitality|Abjuration|CP
+026|3|Beacon of Hope|Abjuration|C
+028|3|Bestow Curse|Necromancy|C
+045|3|Clairvoyance|Divination|C
+069|3|Create Food and Water|Conjuration|
+077|3|Daylight|Evocation|
+089|3|Dispel Magic|Abjuration|
+360|3|Feign Death|Necromancy|RP
+146|3|Glyph of Warding|Abjuration|
+197|3|Magic Circle|Abjuration|
+206|3|Mass Healing Word|Abjuration|
+209|3|Meld into Stone|Transmutation|R
+246|3|Protection from Energy|Abjuration|C
+256|3|Remove Curse|Abjuration|
+261|3|Revivify|Necromancy|
+271|3|Sending|Divination|
+289|3|Speak with Dead|Necromancy|
+293|3|Spirit Guardians|Conjuration|C
+313|3|Tongues|Divination|
+332|3|Water Walk|Transmutation|R
+021|4|Aura of Life|Abjuration|C
+344|4|Aura of Purity|Abjuration|CP
+024|4|Banishment|Abjuration|C
+066|4|Control Water|Transmutation|C
+078|4|Death Ward|Abjuration|
+091|4|Divination|Divination|R
+137|4|Freedom of Movement|Abjuration|
+151|4|Guardian of Faith|Conjuration|
+192|4|Locate Creature|Divination|C
+297|4|Stone Shape|Transmutation|
+350|5|Circle of Power|Abjuration|CP
+050|5|Commune|Divination|R
+063|5|Contagion|Necromancy|
+088|5|Dispel Evil and Good|Abjuration|C
+128|5|Flame Strike|Evocation|
+141|5|Geas|Enchantment|
+150|5|Greater Restoration|Abjuration|
+156|5|Hallow|Abjuration|
+180|5|Insect Plague|Conjuration|C
+186|5|Legend Lore|Divination|
+204|5|Mass Cure Wounds|Abjuration|
+230|5|Planar Binding|Abjuration|
+250|5|Raise Dead|Necromancy|
+266|5|Scrying|Divination|C
+374|5|Summon Celestial|Conjuration|CP
+030|6|Blade Barrier|Evocation|C
+071|6|Create Undead|Necromancy|
+120|6|Find the Path|Divination|C
+134|6|Forbiddance|Abjuration|R
+158|6|Harm|Necromancy|
+160|6|Heal|Abjuration|
+164|6|Heroes’ Feast|Conjuration|
+229|6|Planar Ally|Conjuration|
+302|6|Sunbeam|Evocation|C
+318|6|True Seeing|Divination|
+338|6|Word of Recall|Conjuration|
+057|7|Conjure Celestial|Conjuration|C
+094|7|Divine Word|Evocation|
+109|7|Etherealness|Conjuration|
+125|7|Fire Storm|Evocation|
+231|7|Plane Shift|Conjuration|
+369|7|Power Word Fortify|Enchantment|P
+254|7|Regenerate|Transmutation|
+259|7|Resurrection|Necromancy|
+304|7|Symbol|Abjuration|
+012|8|Antimagic Field|Abjuration|C
+067|8|Control Weather|Transmutation|C
+101|8|Earthquake|Transmutation|C
+170|8|Holy Aura|Abjuration|C
+303|8|Sunburst|Evocation|
+019|9|Astral Projection|Necromancy|
+140|9|Gate|Conjuration|C
+205|9|Mass Heal|Abjuration|
+235|9|Power Word Heal|Enchantment|
+317|9|True Resurrection|Necromancy|

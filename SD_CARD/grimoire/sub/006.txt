@@ -1,0 +1,16 @@
+name=Draconic Sorcery
+class=Sorcerer
+source=SRD 5.2.1
+tagline=
+---
+SRD 5.2.1 subclass. This card lists only the spells it always prepares; read its features in the SRD or your Player's Handbook.
+@SPELLS
+Lv 3: Alter Self, Chromatic Orb, Command, Dragon’s Breath
+Lv 5: Fear, Fly
+Lv 7: Arcane Eye, Charm Monster
+Lv 9: Legend Lore, Summon Dragon
+@GRANT
+3||005,043,049,098
+5||116,132
+7||014,040
+9||186,301

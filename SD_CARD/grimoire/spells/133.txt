@@ -1,0 +1,13 @@
+name=Fog Cloud
+level=1
+school=Conjuration
+classes=Druid, Ranger, Sorcerer, Wizard
+time=Action
+range=120 feet
+comp=V, S
+dur=Concentration, up to 1 hour
+flags=C
+---
+You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is Heavily Obscured. It lasts for the duration or until a strong wind (such as one created by Gust of Wind) disperses it.
+@HIGHER
+The fog’s radius increases by 20 feet for each spell slot level above 1.

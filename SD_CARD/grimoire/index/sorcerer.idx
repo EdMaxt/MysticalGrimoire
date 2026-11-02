@@ -1,0 +1,150 @@
+002|0|Acid Splash|Evocation|
+348|0|Blade Ward|Abjuration|CP
+042|0|Chill Touch|Necromancy|
+074|0|Dancing Lights|Illusion|C
+103|0|Elementalism|Transmutation|
+123|0|Fire Bolt|Evocation|
+362|0|Friends|Enchantment|CP
+189|0|Light|Evocation|
+196|0|Mage Hand|Conjuration|
+210|0|Mending|Transmutation|
+211|0|Message|Transmutation|
+368|0|Mind Sliver|Enchantment|P
+215|0|Minor Illusion|Illusion|
+233|0|Poison Spray|Necromancy|
+239|0|Prestidigitation|Transmutation|
+252|0|Ray of Frost|Evocation|
+279|0|Shocking Grasp|Evocation|
+286|0|Sorcerous Burst|Evocation|
+385|0|Thunderclap|Evocation|P
+319|0|True Strike|Divination|
+036|1|Burning Hands|Evocation|
+041|1|Charm Person|Enchantment|
+043|1|Chromatic Orb|Evocation|
+048|1|Color Spray|Illusion|
+052|1|Comprehend Languages|Divination|R
+082|1|Detect Magic|Divination|CR
+086|1|Disguise Self|Illusion|
+110|1|Expeditious Retreat|Transmutation|C
+115|1|False Life|Necromancy|
+117|1|Feather Fall|Transmutation|
+133|1|Fog Cloud|Conjuration|C
+148|1|Grease|Conjuration|
+173|1|Ice Knife|Conjuration|
+184|1|Jump|Transmutation|
+195|1|Mage Armor|Abjuration|
+199|1|Magic Missile|Evocation|
+253|1|Ray of Sickness|Necromancy|
+275|1|Shield|Abjuration|
+281|1|Silent Image|Illusion|C
+283|1|Sleep|Enchantment|C
+310|1|Thunderwave|Evocation|
+388|1|Witch Bolt|Evocation|CP
+005|2|Alter Self|Transmutation|C
+341|2|Arcane Vigor|Abjuration|P
+033|2|Blindness/Deafness|Transmutation|
+035|2|Blur|Illusion|C
+351|2|Cloud of Daggers|Conjuration|CP
+356|2|Crown of Madness|Enchantment|CP
+075|2|Darkness|Evocation|C
+076|2|Darkvision|Transmutation|
+084|2|Detect Thoughts|Divination|C
+098|2|Dragon’s Breath|Transmutation|C
+104|2|Enhance Ability|Transmutation|C
+105|2|Enlarge/Reduce|Transmutation|C
+127|2|Flame Blade|Evocation|C
+129|2|Flaming Sphere|Conjuration|C
+155|2|Gust of Wind|Evocation|C
+169|2|Hold Person|Enchantment|C
+182|2|Invisibility|Illusion|C
+185|2|Knock|Transmutation|
+188|2|Levitate|Transmutation|C
+201|2|Magic Weapon|Transmutation|
+214|2|Mind Spike|Divination|C
+217|2|Mirror Image|Illusion|
+219|2|Misty Step|Conjuration|
+226|2|Phantasmal Force|Illusion|C
+265|2|Scorching Ray|Evocation|
+269|2|See Invisibility|Divination|
+274|2|Shatter|Evocation|
+291|2|Spider Climb|Transmutation|C
+300|2|Suggestion|Enchantment|C
+333|2|Web|Conjuration|C
+034|3|Blink|Transmutation|
+045|3|Clairvoyance|Divination|C
+068|3|Counterspell|Abjuration|
+077|3|Daylight|Evocation|
+089|3|Dispel Magic|Abjuration|
+116|3|Fear|Illusion|C
+126|3|Fireball|Evocation|
+132|3|Fly|Transmutation|C
+139|3|Gaseous Form|Transmutation|C
+159|3|Haste|Transmutation|C
+172|3|Hypnotic Pattern|Illusion|C
+190|3|Lightning Bolt|Evocation|
+203|3|Major Image|Illusion|C
+246|3|Protection from Energy|Abjuration|C
+284|3|Sleet Storm|Conjuration|C
+285|3|Slow|Transmutation|C
+296|3|Stinking Cloud|Conjuration|C
+313|3|Tongues|Divination|
+322|3|Vampiric Touch|Necromancy|C
+331|3|Water Breathing|Transmutation|R
+332|3|Water Walk|Transmutation|R
+024|4|Banishment|Abjuration|C
+032|4|Blight|Necromancy|
+040|4|Charm Monster|Enchantment|
+055|4|Confusion|Enchantment|C
+085|4|Dimension Door|Conjuration|
+095|4|Dominate Beast|Enchantment|C
+124|4|Fire Shield|Evocation|
+149|4|Greater Invisibility|Illusion|C
+174|4|Ice Storm|Evocation|
+234|4|Polymorph|Transmutation|C
+298|4|Stoneskin|Transmutation|C
+324|4|Vitriolic Sphere|Evocation|
+325|4|Wall of Fire|Evocation|C
+010|5|Animate Objects|Transmutation|C
+015|5|Arcane Hand|Evocation|C
+047|5|Cloudkill|Conjuration|C
+054|5|Cone of Cold|Evocation|
+072|5|Creation|Illusion|
+097|5|Dominate Person|Enchantment|C
+168|5|Hold Monster|Enchantment|C
+180|5|Insect Plague|Conjuration|C
+270|5|Seeming|Illusion|
+381|5|Synaptic Static|Enchantment|P
+305|5|Telekinesis|Transmutation|C
+308|5|Teleportation Circle|Conjuration|
+328|5|Wall of Stone|Evocation|C
+340|6|Arcane Gate|Conjuration|CP
+039|6|Chain Lightning|Evocation|
+044|6|Circle of Death|Necromancy|
+087|6|Disintegrate|Transmutation|
+111|6|Eyebite|Necromancy|C
+130|6|Flesh to Stone|Transmutation|C
+138|6|Freezing Sphere|Evocation|
+145|6|Globe of Invulnerability|Abjuration|C
+207|6|Mass Suggestion|Enchantment|
+222|6|Move Earth|Transmutation|C
+302|6|Sunbeam|Evocation|C
+318|6|True Seeing|Divination|
+079|7|Delayed Blast Fireball|Evocation|C
+109|7|Etherealness|Conjuration|
+122|7|Finger of Death|Necromancy|
+125|7|Fire Storm|Evocation|
+231|7|Plane Shift|Conjuration|
+240|7|Prismatic Spray|Evocation|
+260|7|Reverse Gravity|Transmutation|C
+307|7|Teleport|Conjuration|
+080|8|Demiplane|Conjuration|
+096|8|Dominate Monster|Enchantment|C
+101|8|Earthquake|Transmutation|C
+178|8|Incendiary Cloud|Conjuration|C
+237|8|Power Word Stun|Enchantment|
+303|8|Sunburst|Evocation|
+140|9|Gate|Conjuration|C
+212|9|Meteor Swarm|Evocation|
+236|9|Power Word Kill|Enchantment|
+311|9|Time Stop|Transmutation|
+337|9|Wish|Conjuration|
