@@ -1,4 +1,8 @@
-MIT License
+# License / Licencia
+
+## English
+
+### MIT License
 
 Copyright (c) 2026 EdMaxt
 
@@ -20,19 +24,85 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
-
-## D&D 5.2.1 SRD License
+### D&D 5.2.1 SRD Content
 
 The D&D 5.2.1 SRD content included in this project is licensed under the
 Creative Commons Attribution 4.0 International License (CC BY 4.0).
-
-For more information, visit: https://creativecommons.org/licenses/by/4.0/
 
 The following content is derived from the D&D 5.2.1 SRD:
 - Spell listings and descriptions
 - Class information
 - School classifications
 - Game mechanics and rules
+- Subclass information
 
-All original work in this project is released under the MIT License above.
+**Attribution:** Dungeons & Dragons 5th Edition System Reference Document
+Copyright © 2016 Wizards of the Coast LLC
+
+For more information: https://creativecommons.org/licenses/by/4.0/
+
+### Neon Odyssey Content - Personal Use Only
+
+Neon Odyssey playtest content included in this project (classes, subclasses,
+and related materials) is used for **personal, non-commercial purposes only**.
+
+**Notice:** Neon Odyssey is a playtest product and all associated content
+is proprietary. This application is intended for personal D&D campaigns only.
+Redistribution or commercial use of Neon Odyssey content is prohibited.
+
+**Original Copyright:** © 2024 Neon Odyssey (Playtest Materials)
+
+---
+
+## Español
+
+### Licencia MIT
+
+Derechos de autor (c) 2026 EdMaxt
+
+Se otorga permiso, de forma gratuita, a cualquier persona que obtenga una copia
+del software y los archivos de documentación asociados ("el Software"), para
+tratar el Software sin restricción, incluyendo sin limitación los derechos de
+usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o
+vender copias del Software, bajo las siguientes condiciones:
+
+El aviso de derechos de autor anterior y este aviso de permiso se incluirán
+en todas las copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESADA
+O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN,
+APTITUD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS
+AUTORES O TITULARES DE DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN,
+DAÑO U OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O DE OTRA
+FORMA, QUE SURJA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRO TRATO
+EN EL SOFTWARE.
+
+### Contenido D&D 5.2.1 SRD
+
+El contenido del D&D 5.2.1 SRD incluido en este proyecto está licenciado bajo la
+Licencia Internacional de Atribución de Creative Commons 4.0 (CC BY 4.0).
+
+El siguiente contenido está derivado del D&D 5.2.1 SRD:
+- Listados de hechizos y descripciones
+- Información de clases
+- Clasificaciones de escuelas de magia
+- Mecánicas de juego
+- Información de subclases
+
+**Atribución:** Dungeons & Dragons 5ª Edición, Documento de Referencia del Sistema
+Derechos de autor © 2016 Wizards of the Coast LLC
+
+Para más información: https://creativecommons.org/licenses/by/4.0/
+
+### Contenido de Neon Odyssey - Solo Uso Personal
+
+El contenido del playtest de Neon Odyssey incluido en este proyecto (clases,
+subclases y materiales relacionados) se utiliza **únicamente con fines personales
+y no comerciales**.
+
+**Aviso:** Neon Odyssey es un producto de playtest y todo el contenido asociado
+es propietario. Esta aplicación está destinada únicamente para campañas de D&D
+personales. La redistribución o uso comercial del contenido de Neon Odyssey
+está prohibido.
+
+**Derechos de Autor Originales:** © 2024 Neon Odyssey (Materiales de Playtest)
