@@ -206,6 +206,31 @@ Dos ambientes disponibles:
 - `getLogicalHeight()` - Alto dinámico
 - `getRotationLabel()` - Label de rotación
 
+## Battery Charging Detection (v1.0.0 Update)
+
+### Technical Note
+The CYD ESP32-32E does not officially expose the TP4054 charger's CHRG pin to any GPIO. The battery circuit only provides:
+- **IO34:** Voltage ADC reading (input only)
+- **IO35:** Expansion pin (input only, no assignment)
+
+**Charging Detection Method:** Since no hardware status pin is available, the firmware estimates charging state by monitoring voltage rise. When voltage increases by ≥0.013V within a 60-second window, charging is indicated for 30 seconds.
+
+### v1.0.0 Improvement
+- **Previous threshold:** 0.04V (40mV) - less sensitive, missed USB connection at high battery levels
+- **New threshold:** 0.013V (13mV) - 3x more sensitive, better USB detection
+- **File:** `src/battery.h` line 61
+
+### Future Enhancement (Optional)
+If you want reliable charging detection without voltage estimation, you can:
+1. Solder a wire from TP4054 CHRG pin (pin 1 on the IC) to GPIO 35
+2. Add a 10k pull-up resistor from GPIO 35 to 3.3V
+3. Change `config.h`: `#define PIN_CHG_STATUS 35` (instead of -1)
+4. Recompile and upload
+
+This requires micro-soldering skills and is optional.
+
+---
+
 ## Problemas Comunes
 
 ### "Pantalla rotada 90°"
@@ -213,6 +238,12 @@ Dos ambientes disponibles:
 
 ### "Touch no responde en rotación"
 **Solución:** Asegurar que las coordenadas se transforman en el switch statement de handleTap.
+
+### "USB no detecta carga"
+**Solución:** v1.0.0 mejoró la sensibilidad de detección. Si sigue sin funcionar:
+1. Conectar USB y presionar botón + en Options para calibrar batería
+2. Revisar que la placa detecta correctamente el voltaje con multímetro
+3. Considerar la solda opcional del CHRG pin a GPIO 35 (ver "Battery Charging Detection")
 
 ### "Firmware demasiado grande"
 **Solución:** 

@@ -177,6 +177,16 @@ Compile with `cyd_touchtest` environment to access calibration test on startup.
 4. Line 1559: Rotation initialization
 5. Multiple lines: Draw functions refactored
 
+### Battery Charging Detection (v1.0.0 Update)
+
+**Technical Note:** The CYD ESP32-32E does not officially expose the TP4054 charger's CHRG pin to any GPIO. Charging is estimated by monitoring voltage rise (≥0.013V in 60 seconds).
+
+**v1.0.0 Improvement:** Sensitivity increased from 0.04V to 0.013V (3x more sensitive) for better USB detection.
+
+**File:** `src/battery.h` line 61
+
+**Optional Hardware Enhancement:** Solder CHRG pin from TP4054 to GPIO 35 + add 10k pull-up to 3.3V, then set `#define PIN_CHG_STATUS 35` in config.h.
+
 ### Common Issues
 
 #### Screen Rotated 90°
@@ -184,6 +194,12 @@ Compile with `cyd_touchtest` environment to access calibration test on startup.
 
 #### Touch Unresponsive in Rotation
 **Solution:** Ensure coordinates are transformed in `handleTap()` switch statement.
+
+#### USB Not Detecting Charge
+**Solution:** v1.0.0 improved sensitivity. If still not working:
+1. Connect USB and press + button in Options to calibrate battery
+2. Verify voltage reading matches multimeter
+3. Consider optional CHRG pin solder to GPIO 35 (see "Battery Charging Detection")
 
 #### Firmware Too Large
 **Solution:**

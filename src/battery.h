@@ -57,9 +57,10 @@ static void batteryTick() {
   chg = (digitalRead(PIN_CHG_STATUS) == LOW);                   // TP4054 CHRG: open drain, low while charging
 #else
   // estimate: the voltage climbs while charging; full/USB sits at ~4.2 V
+  // v1.0.0: improved sensitivity from 0.04f to 0.013f (3x more sensitive) for better USB detection
   if (first || now - batWinStart > 60000UL) { batWinStart = now; batWinMin = batV; }
   if (batV < batWinMin) batWinMin = batV;
-  if (batV - batWinMin >= 0.04f) batChargeUntil = now + 30000UL;
+  if (batV - batWinMin >= 0.013f) batChargeUntil = now + 30000UL;
   chg = (long)(batChargeUntil - now) > 0 || batV >= 4.17f;
 #endif
   bool changed = first || p != batPct || chg != batCharging;
