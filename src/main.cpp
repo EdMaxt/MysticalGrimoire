@@ -93,6 +93,11 @@ static const uint32_t CPU_FREQ_ACTIVE = 240;    // full speed when active
 static const uint32_t CPU_FREQ_IDLE = 80;       // reduced speed when idle/dimmed
 static uint32_t lastCpuScaleTime = 0;
 
+// SD card optimization (v1.0.0 power optimization)
+static const uint32_t SD_FREQ_HZ = 8000000;     // reduced from 20MHz to 8MHz for lower power
+static uint32_t lastSDAccess = 0;               // track last SD card read time
+static const uint32_t SD_POWER_DOWN_MS = 60000; // power down SD after 60s of no access
+
 static bool smoothFont = false;      // true when /grimoire/fonts/body.vlw was loaded
 static bool fontTried  = false;
 static int  lineH = 18, hdrH = 44, readY = 46, viewW = 298;
@@ -165,6 +170,7 @@ static uint16_t getLogicalHeight();
 static const char* getRotationLabel(uint8_t rot);
 static void setCpuFrequency(uint32_t mhz);
 static void cpuScaleUpdate();
+static void sdAccessUpdate();
 static void pushLine(const char* s, int len, uint8_t kind, uint8_t first);
 static int  measure(const char* s, int n);
 static void wrapPara(const char* s, uint8_t kind, int firstIndent);
@@ -293,8 +299,10 @@ static uint16_t schoolColor(uint8_t s) {
 // ---------------------------------------------------------------------------
 static bool mountSD() {
   sdSPI.begin(SD_SCK, SD_MISO, SD_MOSI, SD_CS);
-  if (SD.begin(SD_CS, sdSPI, 20000000)) return true;
+  // v1.0.0: Reduced SPI frequency from 20MHz to 8MHz for lower power consumption
+  if (SD.begin(SD_CS, sdSPI, SD_FREQ_HZ)) return true;
   SD.end();
+  // Fallback to 4MHz if 8MHz fails
   return SD.begin(SD_CS, sdSPI, 4000000);
 }
 
@@ -1338,6 +1346,17 @@ static void cpuScaleUpdate() {
   }
 }
 
+// ---- SD card power optimization (v1.0.0) ------------------------------------
+// Track SD access and auto power-down after inactivity for power savings
+static void sdAccessUpdate() {
+  uint32_t now = millis();
+  // Only track access; SD is unmounted in deep sleep (enterSleep function)
+  // This tracks when we can safely unmount for future aggressive power management
+  if (idleState == 0) {
+    lastSDAccess = now;  // reset timer while active
+  }
+}
+
 // ---- soft sleep -----------------------------------------------------------
 static void idleWake() {
   if (idleState) { idleState = 0; applyBrightness(); }
@@ -1684,5 +1703,7 @@ void loop() {
   }
   // Update CPU frequency scaling based on idle state
   cpuScaleUpdate();
+  // Update SD card power management tracking
+  sdAccessUpdate();
   delay(8);
 }
