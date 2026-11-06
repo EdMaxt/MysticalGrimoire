@@ -87,6 +87,12 @@ static const uint32_t SOFT_DIM_MS = 10000;
 static const uint8_t SOFT_DIM_DUTY = 12;
 static uint8_t currentRot = 0;  // 0=0°, 1=90°, 2=180°, 3=270°, NVS key "rot"
 
+// CPU frequency scaling for power efficiency (v1.0.0 optimization)
+static uint32_t cpuFreqMhz = 240;   // current CPU frequency (MHz)
+static const uint32_t CPU_FREQ_ACTIVE = 240;    // full speed when active
+static const uint32_t CPU_FREQ_IDLE = 80;       // reduced speed when idle/dimmed
+static uint32_t lastCpuScaleTime = 0;
+
 static bool smoothFont = false;      // true when /grimoire/fonts/body.vlw was loaded
 static bool fontTried  = false;
 static int  lineH = 18, hdrH = 44, readY = 46, viewW = 298;
@@ -157,6 +163,8 @@ static bool isPortrait();
 static uint16_t getLogicalWidth();
 static uint16_t getLogicalHeight();
 static const char* getRotationLabel(uint8_t rot);
+static void setCpuFrequency(uint32_t mhz);
+static void cpuScaleUpdate();
 static void pushLine(const char* s, int len, uint8_t kind, uint8_t first);
 static int  measure(const char* s, int n);
 static void wrapPara(const char* s, uint8_t kind, int firstIndent);
@@ -1309,6 +1317,27 @@ static void cycleRotation() {
   setRotation((currentRot == 0) ? 2 : 0);
 }
 
+// ---- CPU frequency scaling (v1.0.0 power optimization) ----------------------
+// Scale CPU frequency based on idle state: 240MHz active, 80MHz idle
+static void setCpuFrequency(uint32_t mhz) {
+  if (cpuFreqMhz == mhz) return;  // already at target frequency
+  cpuFreqMhz = mhz;
+  setCpuFrequencyMhz(mhz);
+  // Serial.printf("CPU freq: %d MHz\n", mhz);  // debug: uncomment to log
+}
+
+// Update CPU frequency based on idleState; call from loop()
+static void cpuScaleUpdate() {
+  uint32_t now = millis();
+  if ((long)(now - lastCpuScaleTime) < 5000) return;  // check every 5 seconds
+  lastCpuScaleTime = now;
+
+  uint32_t targetFreq = (idleState == 0) ? CPU_FREQ_ACTIVE : CPU_FREQ_IDLE;
+  if (cpuFreqMhz != targetFreq) {
+    setCpuFrequency(targetFreq);
+  }
+}
+
 // ---- soft sleep -----------------------------------------------------------
 static void idleWake() {
   if (idleState) { idleState = 0; applyBrightness(); }
@@ -1565,6 +1594,9 @@ void setup() {
   applyBrightness();
   pinMode(BOOT_BTN_PIN, INPUT_PULLUP);
   batteryInit();
+  // Initialize CPU frequency scaling: start at full speed
+  setCpuFrequency(CPU_FREQ_ACTIVE);
+  lastCpuScaleTime = millis();
   initColors();
   tft.fillScreen(C_BG);
   touch.begin();
@@ -1650,5 +1682,7 @@ void loop() {
       if (!dragging) handleTap(downX, downY);
     }
   }
+  // Update CPU frequency scaling based on idle state
+  cpuScaleUpdate();
   delay(8);
 }
