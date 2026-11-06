@@ -21,6 +21,10 @@
 // Minimum pressure to count as a touch (same idea as the Stoffregen library).
 #define TOUCH_Z_MIN 400
 
+// Touch screen power optimization (v1.0.0): smart polling rates
+#define TOUCH_POLL_ACTIVE_MS   8      // poll every 8ms when actively touching
+#define TOUCH_POLL_IDLE_MS    50      // poll every 50ms when no touch (reduces SPI traffic)
+
 // Raw ADC range -> screen. Start with the common CYD values; if PlanarNexus
 // uses different numbers, copy them here. Use the cyd_touchtest env to tune.
 #define TOUCH_RAW_X_MIN 200
