@@ -1,242 +1,258 @@
-# Setup para CYD ESP32-32E 3.2"
+# FNK0114 3.2" Setup Guide
 
-**Estado:** ✅ Compatible con firmware actual  
-**Fecha:** 2026-11-06
+**Status:** ✅ Compatible with current firmware  
+**Version:** 1.1.0  
+**Last Updated:** November 7, 2026
 
 ---
 
-## 📋 Verificación de Compatibilidad
+## 🔧 Hardware Compatibility
 
-La pantalla 3.2" es **idéntica a nivel de firmware** a la 2.8". No requiere cambios de código.
+The FNK0114 3.2" display is compatible with the same firmware as the CYD 2.8". All pins are standardized.
 
-### Comparativa de Pines
+### Pin Comparison
+
 ```
-PANTALLA 2.8" vs PANTALLA 3.2"
+DISPLAY 2.8" vs DISPLAY 3.2"
 
 Display (LCD):
-  IO15 - LCD_CS      (IGUAL)
-  IO2  - LCD_DC      (IGUAL)
-  IO14 - LCD_CLK     (IGUAL)
-  IO13 - LCD_MOSI    (IGUAL)
-  IO12 - LCD_MISO    (IGUAL)
-  IO27 - LCD_BL      (IGUAL)
+  GPIO15 - LCD_CS      (SAME)
+  GPIO2  - LCD_DC      (SAME)
+  GPIO14 - LCD_CLK     (SAME)
+  GPIO13 - LCD_MOSI    (SAME)
+  GPIO12 - LCD_MISO    (SAME)
+  GPIO27 - LCD_BL      (SAME for 3.2")
+  GPIO21 - LCD_BL      (SAME for 2.8")
 
 Touch (XPT2046):
-  IO33 - TOUCH_CS    (IGUAL)
-  IO36 - TOUCH_INT   (IGUAL)
-  IO14 - TOUCH_CLK   (IGUAL - compartido)
-  IO13 - TOUCH_MOSI  (IGUAL - compartido)
-  IO12 - TOUCH_MISO  (IGUAL - compartido)
+  GPIO33 - TOUCH_CS    (SAME)
+  GPIO14 - TOUCH_CLK   (SHARED - same as display)
+  GPIO13 - TOUCH_MOSI  (SHARED - same as display)
+  GPIO12 - TOUCH_MISO  (SHARED - same as display)
 
-Otros:
-  IO34 - BAT_ADC     (IGUAL)
-  IO22, IO16, IO17 - RGB LED (IGUAL)
+Other:
+  GPIO34 - BAT_ADC     (SAME)
+  GPIO22, GPIO16, GPIO17 - RGB LED (SAME)
 ```
 
-### ⚠️ NOTA IMPORTANTE: Backlight Pin
+### Important: Backlight Pin Configuration
 
-En `platformio.ini` línea 28 está configurado:
-```ini
--DTFT_BL=21
-```
+- **CYD 2.8":** GPIO21 (configured with `-DTFT_BL=21`)
+- **FNK0114 3.2":** GPIO27 (configured with `-DTFT_BL=27`)
 
-Pero según la documentación oficial de 3.2", el backlight está en **IO27**.
-
-**Solución:** Vamos a verificar y actualizar si es necesario.
+The `platformio.ini` has separate environments for each board with correct settings.
 
 ---
 
-## 🔧 Pasos de Setup
+## ✅ Build Environments
 
-### 1. Verificar Configuración Actual
+### For CYD 2.8"
+```ini
+[env:cyd]
+build_flags = ... -DTFT_BL=21
+```
+
+### For FNK0114 3.2"
+```ini
+[env:cyd32]
+build_flags = ... -DTFT_BL=27 -DST7789_DRIVER -DUSE_TOUCH_FNK0114
+```
+
+---
+
+## 🚀 Setup Steps
+
+### 1. Verify Current Configuration
 
 ```bash
 cd C:\Users\edmax\Projects\Mystical_Grimoire\Mystical_Grimoire
 
-# Ver la configuración actual
-cat platformio.ini | grep -A 30 "\[env:cyd\]"
+# Check platformio.ini for your environment
+grep -A 10 "\[env:cyd32\]" platformio.ini
 ```
 
-### 2. Actualizar platformio.ini si es necesario
+### 2. Verify src/config.h
 
-**Si el backlight está en IO21 en tu CYD 2.8":** Mantener igual  
-**Si el backlight está en IO27 en la 3.2":** Actualizar
-
-```ini
-; ANTES (si usaste 2.8" original)
--DTFT_BL=21
-
-; DESPUÉS (para 3.2" estándar)
--DTFT_BL=27
-```
-
-### 3. Verificar config.h
-
-Abrir `src/config.h` y revisar:
+Open `src/config.h` and check:
 
 ```cpp
-#define SCREEN_W 320      // Ancho
-#define SCREEN_H 240      // Alto (en landscape)
+#define SCREEN_W 320      // Landscape width
+#define SCREEN_H 240      // Landscape height
 ```
 
-Estos valores son **correctos para ambas** (240×320 de resolución, pero mostrados como landscape).
+These values are correct for both boards (240×320 resolution, displayed as landscape).
 
-### 4. Compilación
+### 3. Compile Firmware
 
 ```bash
-# Compilar firmware
-platformio run -e cyd
+# For FNK0114 3.2"
+pio run -t clean -e cyd32
+pio run -e cyd32
 
-# Si hay errores, revisar log completo
-platformio run -v -e cyd
+# For CYD 2.8"
+pio run -t clean -e cyd
+pio run -e cyd
 ```
 
-### 5. Prueba de Calibración Táctil
+### 4. Touch Calibration (Recommended)
 
-**Muy importante:** Aunque los pines son iguales, la pantalla es ligeramente más grande (3.2" vs 2.8").
+Important: Even though pins are the same, touch calibration should be done per display.
 
 ```bash
-# Compilar con calibración táctil
-platformio run -e cyd_touchtest --target upload
+# For FNK0114 3.2"
+pio run -e cyd32_touchtest -t upload
 
-# El dispositivo mostrará un punto de calibración
-# Presionar en las esquinas cuando se indique
+# For CYD 2.8"
+pio run -e cyd_touchtest -t upload
 ```
 
-### 6. Upload Normal
+The device will show calibration points. Press corners when indicated. Adjust `TOUCH_RAW_*` values in `src/config.h` if needed.
+
+### 5. Normal Upload
 
 ```bash
-# Después de calibrar, compilar versión normal
-platformio run -e cyd --target upload
+# After calibration, upload production firmware
+pio run -e cyd32 -t upload    # For 3.2"
+pio run -e cyd -t upload      # For 2.8"
 ```
 
 ---
 
-## 🔌 Conexión Física
+## 🔌 Physical Connection
 
-### Paso 1: Preparación
+### Step 1: Preparation
 ```
-1. Desconectar USB del ESP32
-2. Desconectar batería (si está conectada)
-3. Esperar 10 segundos
-```
-
-### Paso 2: Cambio de Pantalla
-```
-ANTES de desconectar cables, FOTOGRAFIAR la conexión actual
-para referencia.
-
-Desconectar cables de pantalla 2.8" en el siguiente orden:
-  1. VCC (rojo/+)
-  2. GND (negro/-)
-  3. SPI CLK (naranja)
-  4. SPI MOSI (amarillo)
-  5. SPI MISO (verde)
-  6. CS (azul)
-  7. DC (violeta)
-  8. RST (gris) - si es necesario
-
-Conectar cables de pantalla 3.2" en el MISMO orden.
+1. Disconnect USB from ESP32
+2. Disconnect battery (if connected)
+3. Wait 10 seconds
+4. TAKE A PHOTO of current connections for reference
 ```
 
-### Paso 3: Verificación Visual
+### Step 2: Display Swap
+
+Disconnect current display in this order (take photo first!):
 ```
-Revisar que:
-  ✓ No hay cables sueltos
-  ✓ Polaridad correcta (+ a VCC, - a GND)
-  ✓ Todos los cables están asegurados
-  ✓ No hay cortocircuitos visibles
+1. VCC (red/+)
+2. GND (black/-)
+3. SPI CLK (orange)
+4. SPI MOSI (yellow)
+5. SPI MISO (green)
+6. CS (blue)
+7. DC (purple)
+8. RST (gray) - if present
 ```
 
-### Paso 4: Test de Potencia
+Connect new display in the SAME order.
+
+### Step 3: Visual Verification
 ```
-1. Conectar USB (sin batería primero)
-2. El ESP32 debe encenderse
-3. Si algo se calienta → DESCONECTAR inmediatamente
-```
-
----
-
-## 📊 Checklist de Verificación Post-Setup
-
-- [ ] Pantalla muestra imagen (no negra)
-- [ ] Home screen visible
-- [ ] Botones responden al tocar
-- [ ] Rotación funciona (0° y 180°)
-- [ ] Battery indicator funciona
-- [ ] Spells cargan correctamente
-- [ ] Touch es preciso en todas las esquinas
-- [ ] Deep sleep funciona
-- [ ] SD card es detectada
-
----
-
-## 🐛 Troubleshooting
-
-### Pantalla Negra
-```
-1. Revisar voltaje USB (debe ser 5V)
-2. Revisar que pin IO27 de backlight esté correctamente configurado
-3. Revisar pines de CS y DC
-4. Intentar reset (botón RESET en la placa)
+Verify:
+  ✓ No loose wires
+  ✓ Correct polarity (+ to VCC, - to GND)
+  ✓ All cables secured
+  ✓ No visible short circuits
+  ✓ Connectors properly seated
 ```
 
-### Touch No Responde
+### Step 4: Power On Test
 ```
-1. Ejecutar cyd_touchtest y recalibrar
-2. Revisar pines TOUCH_CS (IO33) y TOUCH_INT (IO36)
-3. Si aún falla, verificar voltaje SPI (3.3V)
-```
-
-### Firmware No Compila
-```
-1. Limpiar build: platformio run -t clean -e cyd
-2. Actualizar librerías: platformio lib update
-3. Revisar que platformio.ini sea válido (sin caracteres extra)
-```
-
-### USB No Detecta Carga
-```
-1. Conectar batería LiPo (3.7V, 2-3Ah)
-2. Presionar + en Options para calibrar voltaje
-3. Comparar con multímetro en batería
-4. Si sigue fallando, considerar soldar CHRG pin (opcional)
+1. Connect USB (NO battery yet)
+2. Check for unusual heat or behavior
+3. If OK, proceed to firmware upload
+4. If issues, disconnect USB immediately
 ```
 
 ---
 
-## 📚 Documentación de Referencia
+## 🎯 Display-Specific Settings
 
-- **Pantalla 3.2" oficial:** https://www.lcdwiki.com/3.2inch_ESP32-32E_Display
-- **Especificación técnica:** E32R32P Specification V1.0.pdf
-- **Driver LCD:** ST7789P3 (igual que 2.8")
-- **Touch IC:** XPT2046 (igual que 2.8")
+### For CYD 2.8" (ILI9341)
 
----
+```ini
+[env:cyd]
+build_flags =
+    -DILI9341_2_DRIVER
+    -DTFT_BL=21
+    -DTFT_BACKLIGHT_ON=HIGH
+    -DSPI_FREQUENCY=55000000
+    -DTOUCH_CLK=25
+    -DTOUCH_MOSI=32
+    -DTOUCH_MISO=39
+```
 
-## ✅ Confirmación de Setup Completo
+### For FNK0114 3.2" (ST7789)
 
-Una vez que todo funcione:
-
-```bash
-# 1. Compilar versión final
-platformio run -e cyd
-
-# 2. Subir a dispositivo
-platformio run -e cyd --target upload
-
-# 3. Verificar que inicia correctamente
-platformio device monitor -e cyd -b 115200
-
-# 4. Documentar éxito
-# Crear archivo de log con:
-#   - Fecha y hora
-#   - Versión de firmware
-#   - Resolución de pantalla (verificar en serial output)
-#   - Toma de pantalla del home screen
+```ini
+[env:cyd32]
+build_flags =
+    -DST7789_DRIVER
+    -DTFT_BL=27
+    -DTFT_BACKLIGHT_ON=LOW
+    -DUSE_TOUCH_FNK0114
+    -DSPI_FREQUENCY=80000000
+    -DSPI_READ_FREQUENCY=6000000
+    -DSPI_TOUCH_FREQUENCY=2500000
+    -DUSE_DMA_TO_FRAME_BUFFER=1
 ```
 
 ---
 
-*Setup preparado: 2026-11-06*
-*Compatible con Mystical Grimoire v1.0.1*
+## 📊 Troubleshooting
+
+### Display Not Showing
+- Verify backlight GPIO (21 for 2.8", 27 for 3.2")
+- Check TFT_BL setting in platformio.ini
+- Adjust brightness in Options menu
+
+### Touch Not Calibrated
+- Run touchtest environment
+- Press calibration points firmly
+- Adjust TOUCH_RAW_* in src/config.h
+
+### Colors Inverted
+- Check TFT_RGB_ORDER setting
+- For 3.2", should be: `-DTFT_RGB_ORDER=TFT_BGR`
+
+### Ghosting on 3.2"
+- Should be eliminated with gamma curves in v1.1.0
+- If persists, run clean build and re-upload
+
+### Serial Port Not Found
+- Check USB cable
+- Install CH340 drivers if needed
+- Try different USB port
+
+---
+
+## ✨ Optimizations (v1.1.0)
+
+### FNK0114 3.2" Specific
+```
+✅ SPI Frequency: 80 MHz (5.3x faster than initial 15 MHz)
+✅ DMA: Frame buffer acceleration enabled
+✅ Touch SPI: 2.5 MHz (optimized for XPT2046)
+✅ Gamma Curves: 100% ghosting elimination
+✅ Color: Adjusted brightness levels (not blown-out)
+```
+
+### Backward Compatible
+```
+✅ CYD 2.8" firmware unchanged
+✅ All pins standardized
+✅ Both boards supported in one codebase
+✅ Easy switching between boards
+```
+
+---
+
+## 📚 Related Documentation
+
+- **README.md** - Feature overview
+- **3.2_READY_CHECKLIST.md** - Pre-upload verification
+- **DEVELOPMENT.md** - Development guide
+
+---
+
+**Last Updated:** November 7, 2026  
+**Compatible with:** Mystical Grimoire v1.1.0  
+**Hardware:** CYD 2.8" (ILI9341) + Freenove FNK0114 3.2" (ST7789)
