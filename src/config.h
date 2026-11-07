@@ -13,10 +13,19 @@
 
 // ---- Touch XPT2046 on its own pins, read with software SPI -----------------
 // The hardware VSPI host is used by the SD card, so touch is bit-banged.
-#define TOUCH_CLK   25
-#define TOUCH_MOSI  32
-#define TOUCH_MISO  39
-#define TOUCH_CS    33
+// Values can be overridden from platformio.ini with -DTOUCH_XXX flags
+#ifndef TOUCH_CLK
+  #define TOUCH_CLK   25
+#endif
+#ifndef TOUCH_MOSI
+  #define TOUCH_MOSI  32
+#endif
+#ifndef TOUCH_MISO
+  #define TOUCH_MISO  39
+#endif
+#ifndef TOUCH_CS
+  #define TOUCH_CS    33
+#endif
 
 // Minimum pressure to count as a touch (same idea as the Stoffregen library).
 #define TOUCH_Z_MIN 400

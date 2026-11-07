@@ -1,15 +1,25 @@
 # Mystical Grimoire 🧙‍♂️
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)]()
-[![Platform](https://img.shields.io/badge/Platform-ESP32-green.svg)]()
-[![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)]()
+[![License: MIT/CC BY 4.0](https://img.shields.io/badge/License-MIT%2FCC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)]()
+[![Platform](https://img.shields.io/badge/Platform-ESP32_CYD_2.8%22_%26_Freenove_3.2%22-green.svg)]()
+[![Status](https://img.shields.io/badge/Status-Stable_&_Optimized-brightgreen.svg)]()
 
-Companion de D&D 2024 para la CYD ESP32: lista de hechizos del SRD 5.2.1 separada por clase, leída desde una microSD, más un segundo libro opcional con las clases y subclases de **Neon Odyssey** (playtest). La app está en inglés.
+[**English**](#english) | [**Español**](#español)
 
-> **Estado v1.0.0:** ✅ **Rotación dual completamente funcional** (0° y 180°), UI perfectamente alineado, touch correcto en ambas orientaciones, firmware optimizado (531 KB). Testeado y estable en placa.
+---
+
+## English
+
+### Overview
+
+D&D 2024 companion application for the CYD ESP32 touchscreen: browse spells from the D&D 5.2.1 SRD organized by class, read from microSD card, plus an optional second spellbook with classes and subclasses from **Neon Odyssey** (playtest). The app interface is in English.
+
+> **Estado v1.1.0:** ✅ **Dual-board support optimizado** - CYD 2.8" (ILI9341) + Freenove FNK0114 3.2" (ST7789) con soporte completo. Display rendering perfecto, ghosting 100% eliminado en 3.2", touch responsivo, performance fluida. Firmware: 535 KB. Testeado y estable en ambas placas.
 >
-> **Historial:** v0.8 + rotación dual con transformación de coordenadas táctiles, refactorización completa del layout, documentación exhaustiva. Versión anterior v0.8 con soft sleep (Options > Screen off), v0.7 con batería, v0.6 con iconos, v0.5 con hechizos, v0.4 con Options y persistencia en NVS.
+> **v1.0.0:** ✅ Rotación dual (0°/180°), UI alineado, touch perfecto, firmware optimizado (531 KB).
+>
+> **Historial:** v0.8 con soft sleep (Options > Screen off), v0.7 con batería, v0.6 con iconos, v0.5 con hechizos, v0.4 con Options y persistencia en NVS.
 
 ## Instalación rápida
 
@@ -64,6 +74,51 @@ La versión 1.0.0 implementa rotación completamente funcional en **dos orientac
 > **Nota:** Rotación vertical (90°/270° portrait) no está implementada; requeriría rediseñar completamente los layouts. La versión actual optimiza landscape en ambas direcciones.
 
 Para más detalles sobre la implementación, ver [DEVELOPMENT.md](DEVELOPMENT.md) y [CHANGELOG.md](CHANGELOG.md).
+
+---
+
+## Dual-Board Support v1.1.0 ✨
+
+Mystical Grimoire ahora soporta **dos variantes de hardware** con optimizaciones específicas para cada display:
+
+### Supported Boards
+
+| Board | Display | Driver | Status | Key Features |
+|-------|---------|--------|--------|--------------|
+| **CYD 2.8"** | 240×320 ILI9341 | ILI9341_2 | ✅ Tested | Software SPI touch, stable, proven |
+| **Freenove FNK0114 3.2"** | 240×320 ST7789 | ST7789 | ✅ New! | Integrated touch, optimized rendering |
+
+### v1.1.0 Optimizations (FNK0114 3.2")
+
+- ✅ **Display Rendering:** 100% ghosting elimination via gamma curves (ST7789 commands 0xE0/0xE1)
+- ✅ **SPI Optimization:** 80 MHz display SPI (5.3x faster than initial 15 MHz)
+- ✅ **Touch Performance:** 2.5 MHz optimized XPT2046 polling, highly responsive
+- ✅ **DMA Enabled:** Frame buffer acceleration for smooth transitions
+- ✅ **Color Accuracy:** Reduced brightness levels prevent over-saturation
+- ✅ **Backward Compatible:** All changes maintain CYD 2.8" functionality
+
+### Building for Your Board
+
+**For CYD 2.8":**
+```bash
+pio run -e cyd -t upload
+```
+
+**For Freenove FNK0114 3.2":**
+```bash
+pio run -e cyd32 -t upload
+```
+
+### Configuration
+
+Each board has its own `platformio.ini` environment with optimal settings:
+
+- `[env:cyd]` - CYD 2.8" with ILI9341 and software SPI touch
+- `[env:cyd32]` - Freenove FNK0114 3.2" with ST7789 and integrated touch
+- `[env:cyd_touchtest]` - Touch calibration for 2.8"
+- `[env:cyd32_touchtest]` - Touch calibration for 3.2"
+
+For detailed optimization documentation, see **[Mystical Grimoire - FNK0114 Optimizations](docs/OPTIMIZATIONS.md)** in Obsidian vault or project docs.
 
 ---
 

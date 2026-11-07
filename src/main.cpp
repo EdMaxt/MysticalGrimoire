@@ -10,11 +10,21 @@
 #include <esp_sleep.h>
 #include <driver/rtc_io.h>
 #include "config.h"
-#include "touch_soft.h"
+
+#ifdef USE_TOUCH_FNK0114
+  #include "touch_fnk0114.h"
+#else
+  #include "touch_soft.h"
+#endif
 
 TFT_eSPI tft = TFT_eSPI();
 SPIClass sdSPI(VSPI);
-TouchSoft touch(TOUCH_CLK, TOUCH_MOSI, TOUCH_MISO, TOUCH_CS);
+
+#ifdef USE_TOUCH_FNK0114
+  TouchSoft touch(0, 0, 0, 0);  // Dummy pins for FNK0114
+#else
+  TouchSoft touch(TOUCH_CLK, TOUCH_MOSI, TOUCH_MISO, TOUCH_CS);
+#endif
 
 // ---------------------------------------------------------------------------
 // Types and constants
@@ -76,7 +86,8 @@ static Preferences prefs;
 #endif
 #define BOOT_BTN_PIN  0        // not named BOOT_PIN: the ESP32 core defines that macro
 #define BOOT_HOLD_MS  2000
-static const uint8_t BRI_DUTY[5] = { 51, 102, 153, 204, 255 };
+// FNK0114 3.2" needs lower brightness levels to avoid blown-out colors
+static const uint8_t BRI_DUTY[5] = { 30, 75, 120, 170, 220 };
 static uint8_t briLevel = 5;   // 1..5, saved in NVS key "bri"
 // Soft sleep: after N idle minutes the backlight dims, 10 s later it goes off; a tap or BOOT wakes it.
 static const uint8_t SOFT_MIN[5] = {0, 1, 2, 5, 10};   // 0 = never
@@ -1614,6 +1625,26 @@ static void touchTest() {
 }
 #endif
 
+// Initialize gamma curves for ST7789 to reduce ghosting (FNK0114 only)
+static void initGammaST7789() {
+#ifdef USE_TOUCH_FNK0114
+  // Positive Gamma Curve (0xE0) - improves shadow detail
+  tft.writecommand(0xE0);
+  tft.writedata(0xD0); tft.writedata(0x08); tft.writedata(0x11); tft.writedata(0x08);
+  tft.writedata(0x0C); tft.writedata(0x15); tft.writedata(0x39); tft.writedata(0x33);
+  tft.writedata(0x50); tft.writedata(0x36); tft.writedata(0x13); tft.writedata(0x13);
+  tft.writedata(0x2C); tft.writedata(0x2E);
+
+  // Negative Gamma Curve (0xE1) - improves highlight detail
+  tft.writecommand(0xE1);
+  tft.writedata(0xD0); tft.writedata(0x08); tft.writedata(0x10); tft.writedata(0x08);
+  tft.writedata(0x06); tft.writedata(0x06); tft.writedata(0x39); tft.writedata(0x44);
+  tft.writedata(0x51); tft.writedata(0x37); tft.writedata(0x13); tft.writedata(0x13);
+  tft.writedata(0x2C); tft.writedata(0x2E);
+  delay(10);  // Allow panel to process gamma curves
+#endif
+}
+
 void setup() {
   Serial.begin(115200);
   pinMode(PIN_LED_R, OUTPUT); digitalWrite(PIN_LED_R, HIGH);   // active low: off
@@ -1627,6 +1658,7 @@ void setup() {
   softIdx = prefs.getUChar("soff", 3);
   if (softIdx > 4) softIdx = 3;
   tft.init();
+  initGammaST7789();  // Initialize gamma curves for FNK0114
   // Load rotation from NVS - landscape only (0° or 180°)
   uint8_t savedRot = prefs.getUChar("rot", 0);
   currentRot = (savedRot == 2) ? 2 : 0;
@@ -1646,6 +1678,9 @@ void setup() {
   lastCpuScaleTime = millis();
   initColors();
   tft.fillScreen(C_BG);
+  #ifdef USE_TOUCH_FNK0114
+    ((TouchSoft&)touch).setTFT(&tft);  // Pass TFT reference for FNK0114
+  #endif
   touch.begin();
   applyFont();
 #ifdef TOUCH_TEST
